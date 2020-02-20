@@ -102,7 +102,9 @@ theme: material-x
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/happyberrysboy/happyberrysboy.github.io.git 
+  branch: master
 
 
 # Book Theme Configuration
