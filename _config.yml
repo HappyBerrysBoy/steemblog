@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.steemcoinpan.com/@happyberrysboy
+url: http://localhost:4000/
 root: /
 permalink: :category/:id/:title/
 permalink_defaults:
@@ -24,7 +24,6 @@ pretty_urls:
 # STEEM
 steem_users:
   - happyberrysboy
-  - happy.eng
 
 # Directory
 source_dir: source
@@ -98,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: book
+theme: material-x
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
