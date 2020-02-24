@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Material X' version='1.4' docs='https://xaoxuu.com/wiki/material-x/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>뽑기 랜덤 로직 개발 완료!! | Happy Steem Blog</title>
+  
+  
+  <meta name="description" content="https://www.steemcoinpan.com/@happyberrysboy">
+  
+
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css">
+  
+
+  
+
+  
+
+  
+    
+<link rel="stylesheet" href="/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  
+  <div class="cover-wrapper">
+    <cover class='cover post half'>
+      
+        
+  <h1 class='title'>Happyberrysboy's Blog</h1>
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder="" />
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+
+<div class='menu navgation'>
+  <ul class='h-list'>
+    
+      
+        <li>
+          <a class="nav home" href="/"
+            
+            
+            id="home">
+            <i class='fas fa-rss fa-fw'></i>&nbsp;홈
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="https://github.com/HappyBerrysBoy?tab=repositories"
+            
+            
+            id="https:github.comHappyBerrysBoy?tab=repositories">
+            <i class='fas fa-code-branch fa-fw'></i>&nbsp;프로젝트
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/friends/"
+            
+              rel="nofollow"
+            
+            
+            id="friends">
+            <i class='fas fa-link fa-fw'></i>&nbsp;친구들
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/about/"
+            
+              rel="nofollow"
+            
+            
+            id="about">
+            <i class='fas fa-info-circle fa-fw'></i>&nbsp;나는..
+          </a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      
+    </cover>
+    <header class="l_header pure nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar" class="pure"></div>
+  </div>
+
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" target="_self" href='/' >
+        
+          
+            <i class='fas fa-home'></i>
+          
+          
+            Happy Blog
+          
+        
+      </a>
+			<div class='menu navgation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/"
+                  
+                  
+                    target="_self"
+                  
+                  id="home">
+									<i class='fas fa-hourglass-half fa-fw'></i>&nbsp;Home
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/categories/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogcategories">
+									<i class='fas fa-folder-open fa-fw'></i>&nbsp;Categories
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/tags/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogtags">
+									<i class='fas fa-hashtag fa-fw'></i>&nbsp;Tags
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/archives/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogarchives">
+									<i class='fas fa-archive fa-fw'></i>&nbsp;Archives
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="Search" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/"
+                
+                
+                id="home">
+								<i class='fas fa-clock fa-fw'></i>&nbsp;Home
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/blog/archives/"
+                
+                  rel="nofollow"
+                
+                
+                id="blogarchives">
+								<i class='fas fa-archive fa-fw'></i>&nbsp;Archives
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/projects/"
+                
+                
+                id="projects">
+								<i class='fas fa-code-branch fa-fw'></i>&nbsp;Projects
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/friends/"
+                
+                  rel="nofollow"
+                
+                
+                id="friends">
+								<i class='fas fa-link fa-fw'></i>&nbsp;Friends
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="https://xaoxuu.com/wiki/material-x/"
+                
+                  rel="nofollow"
+                
+                
+                id="https:xaoxuu.comwikimaterial-x">
+								<i class='fas fa-book fa-fw'></i>&nbsp;Link
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/"
+                
+                  rel="nofollow"
+                
+                
+                id="about">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;About
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      <div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/uncategorized/ck6uxxgkn0032cpmg2kguag6d/sct-happyberrysboy-happyberrysboy-posting-2020-01-04-01-45/">
+        뽑기 랜덤 로직 개발 완료!!
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    
+      <a href="/" rel="nofollow">
+        
+          <i class="fas fa-user" aria-hidden="true"></i>
+        
+        <p></p>
+      </a>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2020-01-04</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  
+    <div class="new-meta-item browse busuanzi">
+      <a class='notlink'>
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <p>
+          <span id="busuanzi_value_page_pv">
+            <i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i>
+          </span>
+        </p>
+      </a>
+    </div>
+  
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <p><img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg" alt=""></p>
+<p>안녕하세요, 햅뽀이입니다.</p>
+<p>뽑기시 랜덤으로 보상을 선택해서 번호에 매치를 해주는 로직을 개발하여 적용하였습니다.<br>이제는 DB에 어느 번호가 보상이 걸리는 것인지 다 볼 수 있는 운영진 이라도, 실제로 그 번호를 뽑으면 랜덤하게 다른 번호가 뽑히는(물론 확률상 같은 번호도 뽑힐 수는 있어요~ ) 로직을 추가하였습니다.</p>
+<p>투명성을 더 높이기 위함이랄까요? 번호가 뽑히는 과정을 모두다 보여줄 수 있도록 공개하는 것도 가능은 한데… 어떤식으로 보여줄지는 한번 고민을 해봐야겠군요.!!</p>
+<hr>
+<h3 id="랜덤-로직"><a href="#랜덤-로직" class="headerlink" title="랜덤 로직"></a>랜덤 로직</h3><ul>
+<li>예를들어 유저가 뽑기 숫자에서 <strong>5</strong>을 뽑았다고 가정합니다.</li>
+<li>먼저 뽑기 번호를 선택하면 키체인으로 스팀에 트랜잭션을 발생시킵니다.(포스팅키만 있으면 가능!)<br><img src="https://cdn.steemitimages.com/DQmaDbh749FRKoEyuEaNvTzsMU32rCBAjK2uFPk45dVrDJy/image.png" alt=""></li>
+<li>여기서 하단에 transaction_id 값 “de417ce9b0c05f13dd1374715f85c6922d352abc”을 활용합니다.</li>
+<li>저 값은 유저가 선택할 수 없고 랜덤하게 발생 되는 숫자이기 때문에 숫자 결정에 아무도 개입을 할 수가 없습니다.</li>
+<li>저 id 값에서 앞에서부터 숫자만(문자는 skip!!) 4자리를 뽑습니다. =&gt; 여기선 “4179”가 되겠네요.</li>
+<li>그리고 현재 남아 있는 뽑기 번호 갯수를 가져옵니다. =&gt; 예를 들면 50개 숫자중에 28개가 남았다고 가정.</li>
+<li>여기서 오래간만에 초등?중등? 학교에서 배운 <strong>나머지</strong>를 구하는 로직을 이용합니다.</li>
+<li>4179 / 28를 한 후 남은 나머지는 <strong>7</strong>이 남습니다.</li>
+<li>그러면 아까 뽑기 번호 남은 갯수 28개중에서 7번째 보상을 선택합니다. </li>
+<li>그리고 실제로 뽑았던 숫자 <strong>5</strong>와, 랜덤하게 뽑힌 7번째 보상 수를 서로 맞바꿔 버립니다.</li>
+<li>그러면 결론적으로!!! 5번을 뽑은것 처럼 느껴지지만, 실제로 보상은 5번에 딸려 있던 보상이 아닌, 랜덤하게 뽑힌 7번째 숫자의 보상으로 바꿔치기가 되는 것이지요!!!</li>
+</ul>
+<h4 id="이해가-되시는지요-ㅠㅠ"><a href="#이해가-되시는지요-ㅠㅠ" class="headerlink" title="이해가 되시는지요? ㅠㅠ"></a>이해가 되시는지요? ㅠㅠ</h4><p>(<del>아 설명에 그닥 재주가 없는 것 같습니다.. ㅠㅠ</del>)</p>
+<hr>
+<h4 id="아무튼-결론적으로-이제-운영진도-보상이-좋은-번호를-안다고-해도-뽑을-수-없다는-말입니다"><a href="#아무튼-결론적으로-이제-운영진도-보상이-좋은-번호를-안다고-해도-뽑을-수-없다는-말입니다" class="headerlink" title="아무튼 결론적으로 이제 운영진도 보상이 좋은 번호를 안다고 해도 뽑을 수 없다는 말입니다! ^^"></a>아무튼 결론적으로 이제 운영진도 보상이 좋은 번호를 안다고 해도 뽑을 수 없다는 말입니다! ^^</h4><p>그러니 앞으로 의심없이 뽑기를 즐기셔도 좋을 것 같습니다.<br>이제 다음차례는 고급뽑기인가요!?!?!?!?</p>
+<p>일단 주말 잘 보내고!!! 담주에 좀 바쁜일 없으면!! 도즈언!!! 하겠습니다.</p>
+<h5 id="모두모두-남은-주말도-잘-보내십시오-감사합니다"><a href="#모두모두-남은-주말도-잘-보내십시오-감사합니다" class="headerlink" title="모두모두 남은 주말도 잘 보내십시오!!! 감사합니다!!"></a>모두모두 남은 주말도 잘 보내십시오!!! 감사합니다!!</h5>
+          
+            <br>
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-21T01:09:04+09:00">
+  <a class='notlink'>
+    <i class="fas fa-clock" aria-hidden="true"></i>
+    <p>updated at Feb 21, 2020</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct-kr/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct-kr</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct-freeboard/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct-freeboard</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/mini/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>mini</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/zzan/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>zzan</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/liv/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>liv</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/palnet/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>palnet</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/dblog/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>dblog</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/bs/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>bs</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
+          
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/uncategorized/ck6uxxgkn0032cpmg2kguag6d/sct-happyberrysboy-happyberrysboy-posting-2020-01-04-01-45/&title=뽑기 랜덤 로직 개발 완료!! | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
+          
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://localhost:4000/uncategorized/ck6uxxgkn0032cpmg2kguag6d/sct-happyberrysboy-happyberrysboy-posting-2020-01-04-01-45/&title=뽑기 랜덤 로직 개발 완료!! | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
+          
+          href="http://service.weibo.com/share/share.php?url=http://localhost:4000/uncategorized/ck6uxxgkn0032cpmg2kguag6d/sct-happyberrysboy-happyberrysboy-posting-2020-01-04-01-45/&title=뽑기 랜덤 로직 개발 완료!! | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png">
+          
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;Previous</h6>
+                            <h4>
+                                <a href="/uncategorized/ck6uxxgl9004lcpmgbrdacw56/sct-happyberrysboy-hdowx/" rel="prev" title="와이파이 구름을 보신적 있으신가요?">
+                                  
+                                      와이파이 구름을 보신적 있으신가요?
+                                  
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/sct-kr/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-kr</a> <a class="tag" href="/tags/sct-freeboard/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-freeboard</a> <a class="tag" href="/tags/mini/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> mini</a> <a class="tag" href="/tags/zzan/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> zzan</a> <a class="tag" href="/tags/sct/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct</a> <a class="tag" href="/tags/liv/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> liv</a> <a class="tag" href="/tags/palnet/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> palnet</a> <a class="tag" href="/tags/dblog/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> dblog</a> <a class="tag" href="/tags/bs/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> bs</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>Next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/uncategorized/ck6uxxglg0052cpmgbln74rf7/sct-happyberrysboy-sctr-r-sctm-burn/" rel="prev" title="SCTR/R 폐지로 인한 분배 준비 작업 및 sctm.burn 환매 작업">
+                                    
+                                        SCTR/R 폐지로 인한 분배 준비 작업 및 sctm.burn 환매 작업
+                                    
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/sct-kr/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-kr</a> <a class="tag" href="/tags/sct-freeboard/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-freeboard</a> <a class="tag" href="/tags/mini/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> mini</a> <a class="tag" href="/tags/zzan/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> zzan</a> <a class="tag" href="/tags/sct/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct</a> <a class="tag" href="/tags/liv/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> liv</a> <a class="tag" href="/tags/palnet/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> palnet</a> <a class="tag" href="/tags/dblog/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> dblog</a> <a class="tag" href="/tags/bs/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> bs</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: '뽑기 랜덤 로직 개발 완료!!',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+    
+    
+      
+        
+          <section class='widget widget-blur blogger'>
+  <div class='content pure'>
+    
+      <div class='avatar'>
+        <img class='avatar' src='https://cdn.steemitimages.com/DQmYoGJM3gmtjZQ8PtW25HPqWHGzMgxu94XCc8nVGoAxntu/WHALE_COLORED_FIN_plat.jpg'/>
+      </div>
+    
+    
+      <div class='text'>
+        
+        
+        
+          <p><span id="jinrishici-sentence">Happy Steem Blog</span></p>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="mailto:happyaws191204@gmail.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/HappyBerrysBoy"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          
+  <section class='widget widget-blur toc-wrapper'>
+    <header class='pure'>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;바로가기</div>
+  
+    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
+  
+</header>
+
+    <div class='content pure'>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#랜덤-로직"><span class="toc-text">랜덤 로직</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#이해가-되시는지요-ㅠㅠ"><span class="toc-text">이해가 되시는지요? ㅠㅠ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#아무튼-결론적으로-이제-운영진도-보상이-좋은-번호를-안다고-해도-뽑을-수-없다는-말입니다"><span class="toc-text">아무튼 결론적으로 이제 운영진도 보상이 좋은 번호를 안다고 해도 뽑을 수 없다는 말입니다! ^^</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#모두모두-남은-주말도-잘-보내십시오-감사합니다"><span class="toc-text">모두모두 남은 주말도 잘 보내십시오!!! 감사합니다!!</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+          
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+          
+  <section class='widget widget-blur tagcloud'>
+    <header class='pure'>
+  <div><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;관심태그</div>
+  
+    <a class="rightBtn"
+    
+      rel="external nofollow noopener noreferrer"
+    
+    
+      target="_self"
+    
+    href="/blog/tags/"
+    title="blog/tags/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
+
+    <div class='content pure'>
+      <a href="/tags/aaa/" style="font-size: 14px; color: #999">aaa</a> <a href="/tags/bs/" style="font-size: 16.86px; color: #868686">bs</a> <a href="/tags/busy/" style="font-size: 14px; color: #999">busy</a> <a href="/tags/dblig/" style="font-size: 14px; color: #999">dblig</a> <a href="/tags/dblog/" style="font-size: 21.86px; color: #646464">dblog</a> <a href="/tags/kr-dev/" style="font-size: 15.43px; color: #8f8f8f">kr-dev</a> <a href="/tags/liv/" style="font-size: 19px; color: #777">liv</a> <a href="/tags/mini/" style="font-size: 21.86px; color: #646464">mini</a> <a href="/tags/muksteem/" style="font-size: 14px; color: #999">muksteem</a> <a href="/tags/palnet/" style="font-size: 21.14px; color: #686868">palnet</a> <a href="/tags/realclass/" style="font-size: 14px; color: #999">realclass</a> <a href="/tags/s/" style="font-size: 18.29px; color: #7c7c7c">s</a> <a href="/tags/sago/" style="font-size: 15.43px; color: #8f8f8f">sago</a> <a href="/tags/sb/" style="font-size: 14px; color: #999">sb</a> <a href="/tags/sct/" style="font-size: 22.57px; color: #5f5f5f">sct</a> <a href="/tags/sct-bitcoin/" style="font-size: 14px; color: #999">sct-bitcoin</a> <a href="/tags/sct-cartoon/" style="font-size: 14.71px; color: #949494">sct-cartoon</a> <a href="/tags/sct-dev/" style="font-size: 16.14px; color: #8a8a8a">sct-dev</a> <a href="/tags/sct-freeboard/" style="font-size: 19.71px; color: #727272">sct-freeboard</a> <a href="/tags/sct-game/" style="font-size: 17.57px; color: #818181">sct-game</a> <a href="/tags/sct-kr/" style="font-size: 24px; color: #555">sct-kr</a> <a href="/tags/sct-market/" style="font-size: 14.71px; color: #949494">sct-market</a> <a href="/tags/sct-movie/" style="font-size: 14px; color: #999">sct-movie</a> <a href="/tags/sct-notice/" style="font-size: 14px; color: #999">sct-notice</a> <a href="/tags/sct-producer/" style="font-size: 14px; color: #999">sct-producer</a> <a href="/tags/spt/" style="font-size: 17.57px; color: #818181">spt</a> <a href="/tags/test/" style="font-size: 14px; color: #999">test</a> <a href="/tags/union/" style="font-size: 20.43px; color: #6d6d6d">union</a> <a href="/tags/zzan/" style="font-size: 23.29px; color: #5a5a5a">zzan</a>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  
+</aside>
+
+<footer class="clearfix">
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:happyaws191204@gmail.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/HappyBerrysBoy"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  <br>
+  <div class="aplayer-container">
+    
+
+
+  </div>
+  <br>
+  <div><p>Blog content follows the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
+</div>
+  <div>
+    Use
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material X</a>
+    as theme
+    
+      , 
+      total visits
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      times
+    
+    . 
+  </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+  
+  
+    
+      
+<script src="/js/backstretch.min.js"></script>
+
+    
+    <script type="text/javascript">
+      $(function(){
+        if ('') {
+          $('').backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+  
+<script src="/js/search.js"></script>
+
+
+
+  
+    
+<script src="/js/commentTyping.js"></script>
+
+  
+
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "Copied";
+  let COPY_FAILURE = "Copy failed";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>

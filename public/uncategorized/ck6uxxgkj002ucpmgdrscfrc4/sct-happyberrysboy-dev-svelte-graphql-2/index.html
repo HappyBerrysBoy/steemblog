@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Material X' version='1.4' docs='https://xaoxuu.com/wiki/material-x/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2 | Happy Steem Blog</title>
+  
+  
+  <meta name="description" content="https://www.steemcoinpan.com/@happyberrysboy">
+  
+
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css">
+  
+
+  
+
+  
+
+  
+    
+<link rel="stylesheet" href="/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  
+  <div class="cover-wrapper">
+    <cover class='cover post half'>
+      
+        
+  <h1 class='title'>Happyberrysboy's Blog</h1>
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder="" />
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+
+<div class='menu navgation'>
+  <ul class='h-list'>
+    
+      
+        <li>
+          <a class="nav home" href="/"
+            
+            
+            id="home">
+            <i class='fas fa-rss fa-fw'></i>&nbsp;홈
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="https://github.com/HappyBerrysBoy?tab=repositories"
+            
+            
+            id="https:github.comHappyBerrysBoy?tab=repositories">
+            <i class='fas fa-code-branch fa-fw'></i>&nbsp;프로젝트
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/friends/"
+            
+              rel="nofollow"
+            
+            
+            id="friends">
+            <i class='fas fa-link fa-fw'></i>&nbsp;친구들
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/about/"
+            
+              rel="nofollow"
+            
+            
+            id="about">
+            <i class='fas fa-info-circle fa-fw'></i>&nbsp;나는..
+          </a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      
+    </cover>
+    <header class="l_header pure nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar" class="pure"></div>
+  </div>
+
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" target="_self" href='/' >
+        
+          
+            <i class='fas fa-home'></i>
+          
+          
+            Happy Blog
+          
+        
+      </a>
+			<div class='menu navgation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/"
+                  
+                  
+                    target="_self"
+                  
+                  id="home">
+									<i class='fas fa-hourglass-half fa-fw'></i>&nbsp;Home
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/categories/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogcategories">
+									<i class='fas fa-folder-open fa-fw'></i>&nbsp;Categories
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/tags/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogtags">
+									<i class='fas fa-hashtag fa-fw'></i>&nbsp;Tags
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/archives/"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="blogarchives">
+									<i class='fas fa-archive fa-fw'></i>&nbsp;Archives
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="Search" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/"
+                
+                
+                id="home">
+								<i class='fas fa-clock fa-fw'></i>&nbsp;Home
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/blog/archives/"
+                
+                  rel="nofollow"
+                
+                
+                id="blogarchives">
+								<i class='fas fa-archive fa-fw'></i>&nbsp;Archives
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/projects/"
+                
+                
+                id="projects">
+								<i class='fas fa-code-branch fa-fw'></i>&nbsp;Projects
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/friends/"
+                
+                  rel="nofollow"
+                
+                
+                id="friends">
+								<i class='fas fa-link fa-fw'></i>&nbsp;Friends
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="https://xaoxuu.com/wiki/material-x/"
+                
+                  rel="nofollow"
+                
+                
+                id="https:xaoxuu.comwikimaterial-x">
+								<i class='fas fa-book fa-fw'></i>&nbsp;Link
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/"
+                
+                  rel="nofollow"
+                
+                
+                id="about">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;About
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      <div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/uncategorized/ck6uxxgkj002ucpmgdrscfrc4/sct-happyberrysboy-dev-svelte-graphql-2/">
+        [DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    
+      <a href="/" rel="nofollow">
+        
+          <i class="fas fa-user" aria-hidden="true"></i>
+        
+        <p></p>
+      </a>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2020-02-05</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  
+    <div class="new-meta-item browse busuanzi">
+      <a class='notlink'>
+        <i class="fas fa-eye" aria-hidden="true"></i>
+        <p>
+          <span id="busuanzi_value_page_pv">
+            <i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i>
+          </span>
+        </p>
+      </a>
+    </div>
+  
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <p><img src="https://cdn.steemitimages.com/DQmTrDZQc777cBrg9Vf5GyoTh1kohNAAymUpUcKj9mYhGWz/image.png" alt=""></p>
+<p>안녕하세요, 햅뽀이입니다.</p>
+<p>오늘은 svelte에 대해서 더 깊이 깊이 파보려고 열심히 이것저것을 뒤져보며 실제로 프로젝트도 2개나 만들어서 테스트를 해보았습니다….만…. 아직 큰 프로젝트를 하기에는 시기상조 인듯 합니다.</p>
+<p>이유는 크게 3가지 입니다.</p>
+<h3 id="1-React의-redux-Vue의-vuex에-해당하는-“sapper”가-아직-버전-1-0이-안된다"><a href="#1-React의-redux-Vue의-vuex에-해당하는-“sapper”가-아직-버전-1-0이-안된다" class="headerlink" title="1. React의 redux, Vue의 vuex에 해당하는 “sapper”가 아직 버전 1.0이 안된다."></a>1. React의 redux, Vue의 vuex에 해당하는 “sapper”가 아직 버전 1.0이 안된다.</h3><ul>
+<li>제가 사용해보기 위해 먼저 프로젝트를 설치하고 이것저것을 살펴보았습니다.</li>
+<li>아직까지는 너무 복잡한 구조로 되어 있습니다. 원래 간단하다고 해서 시작한 것이었는데, 아직 sapper는 정리가 많이 안된 느낌이 너무 강했습니다.</li>
+<li>문서에도 아래와 같이 나와 있습니다.(아직 진행중!!)</li>
+</ul>
+<blockquote>
+<p>Sapper is in early development, and some things may change before we hit version 1.0. This document is a work-in-progress. If you get stuck, reach out for help in the .<br>See the  for help upgrading from older versions.</p>
+</blockquote>
+<h3 id="2-ui-frameowrk가-너무-적다"><a href="#2-ui-frameowrk가-너무-적다" class="headerlink" title="2. ui frameowrk가 너무 적다."></a>2. ui frameowrk가 너무 적다.</h3><ul>
+<li>웹프로그램을 하려면 또 쓸만한 Components가 많아야 합니다.</li>
+<li>기존에 사용하던 Bootstrap이나 Jquery를 연동하여 간단한 컴포넌트들을 사용 할 수도 있지만, 요즘은 React, Vue 등에 최적화된 오픈소스 UI Framework들이 많이 있습니다.</li>
+<li>Jquery를 적용해서 UI쪽만 활용해볼까 생각도 하고 있긴 합니다.</li>
+<li>하지만 아직은 오로지 <a href="https://sveltematerialui.com/" target="_blank" rel="noopener">이 사이트</a>밖에는 보이지 않습니다.(그것도 아주 부실한..)</li>
+</ul>
+<h3 id="3-레퍼런스-역시-너무-적다"><a href="#3-레퍼런스-역시-너무-적다" class="headerlink" title="3. 레퍼런스 역시 너무 적다."></a>3. 레퍼런스 역시 너무 적다.</h3><ul>
+<li>개발자는 역시 모르면 구글링입니다.</li>
+<li>하지만 정보가 너무 없습니다. ㅠㅠ </li>
+<li>React, Vue는 정말 넘치고 넘쳐 너무나 많은 자료를 자랑하는 반면에 아직 Svelte는 많이 부족하네요.</li>
+</ul>
+<h5 id="그-래-서-아직은-시기상조로-판단하였습니다…-만"><a href="#그-래-서-아직은-시기상조로-판단하였습니다…-만" class="headerlink" title="그!래!서! 아직은 시기상조로 판단하였습니다….만!!"></a>그!래!서! 아직은 시기상조로 판단하였습니다….만!!</h5><p>그래도 칼을 빼들었으니, 무시라도 잘라보기 위해서 간단한 Static 페이지로 대체를 해보려고 합니다.</p>
+<hr>
+<h3 id="프로젝트명은-이름하여…-영어-문장-저장하기-및-랜덤하게-저장된-문장을-출력하여-영어문장-외워보기"><a href="#프로젝트명은-이름하여…-영어-문장-저장하기-및-랜덤하게-저장된-문장을-출력하여-영어문장-외워보기" class="headerlink" title="프로젝트명은..!!! 이름하여… 영어 문장 저장하기 및 랜덤하게 저장된 문장을 출력하여 영어문장 외워보기"></a>프로젝트명은..!!! 이름하여… 영어 문장 저장하기 및 랜덤하게 저장된 문장을 출력하여 영어문장 외워보기</h3><p>입니다.</p>
+<p>현재 아시는 분은 아시겠지만, 제가 또 열심히 영어공부를 하는 중 아니겠습니까.</p>
+<p>그래서 이러한 프로그램을 만들어보려고 합니다.</p>
+<hr>
+<h3 id="오늘은-간단히"><a href="#오늘은-간단히" class="headerlink" title="오늘은 간단히.."></a>오늘은 간단히..</h3><p>프로젝트를 생성하고 Header 부분과 Body부분을 간단히 만들어 보는 과정을 하도록 하겠습니다.<br>먼저 Svelte입니다.</p>
+<hr>
+<h3 id="프로젝트-생성"><a href="#프로젝트-생성" class="headerlink" title="프로젝트 생성"></a>프로젝트 생성</h3><h5 id="프로젝트생성"><a href="#프로젝트생성" class="headerlink" title="프로젝트생성"></a>프로젝트생성</h5><ul>
+<li><p>아래 스크립트를 순서대로 실행하시면 됩니다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npx degit sveltejs&#x2F;template my-svelte-project</span><br><span class="line"># or download and extract </span><br><span class="line">cd my-svelte-project</span><br><span class="line"></span><br><span class="line">npm install</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure></li>
+<li><p>그리고 <a href="http://localhost:5000/">http://localhost:5000/</a> 으로 접속을 해보면 아래와 같은 화면이 뿅!!<br><img src="https://cdn.steemitimages.com/DQmQHoazFjjyWk5qvptRsZYAuf9FNLaXvZDpP3o45yEjbCh/image.png" alt=""></p>
+</li>
+<li><p>프로젝트 폴더구조는 아래와 같습니다.<br><img src="https://cdn.steemitimages.com/DQmY7rJZLnQ7zJRt2L6CkCYpD2QCSDSHvxyJEZaqAqpWFB5/image.png" alt=""></p>
+</li>
+<li><p>Vue와 유사하게, src/main.js가 메인이 되고, App.svelte가 시작페이지로 연동되어 있습니다.(물론 바꿀수도 있습니다.)</p>
+</li>
+</ul>
+<hr>
+<h3 id="body-넣기"><a href="#body-넣기" class="headerlink" title="body 넣기"></a>body 넣기</h3><h5 id="App-svelte"><a href="#App-svelte" class="headerlink" title="App.svelte"></a>App.svelte</h5><ul>
+<li>하나의 svelte 파일안에 web의 3대요소, html, script, css가 모두 들어가고, 모두다 이 파일 안에서 한정되게 작동됩니다.</li>
+<li><h1> 엘리멘트 안에 ｛name｝이라는 바인딩 함수를 입력할 수 있는데, 이 변수는 script에서 선언한 그 name 변수를 바인딩 하게 됩니다.
+![](https://cdn.steemitimages.com/DQmTWcngGYz72LQ2B939e9Sjkz6R8v3TkTZj2yNRq2t95HC/image.png)
+
+</li>
+</ul>
+<h5 id="main-js"><a href="#main-js" class="headerlink" title="main.js"></a>main.js</h5><ul>
+<li>App.svelte를 import하고 target으로 document.body를 지목합니다.</li>
+<li>그리고 App.svelte에서 export한 변수 name에 “world”라는 값을 넣습니다.</li>
+</ul>
+<p><img src="https://cdn.steemitimages.com/DQmet9VRbrXRbB327znLzbYQWe7cfQZK6C6qyD5tm3wu7Vz/image.png" alt=""></p>
+<hr>
+<h3 id="Header-넣기"><a href="#Header-넣기" class="headerlink" title="Header 넣기"></a>Header 넣기</h3><h5 id="Header-svelte를-만들어줍니다"><a href="#Header-svelte를-만들어줍니다" class="headerlink" title="Header.svelte를 만들어줍니다."></a>Header.svelte를 만들어줍니다.</h5><ul>
+<li>별다른 기능은 없고, 파란색 긴 bar를 만드는 소스입니다.<br><img src="https://cdn.steemitimages.com/DQmYTwkbLdepojPQsyyag7adsfGjfbPPoxJNtyXjkydH2ao/image.png" alt=""></li>
+</ul>
+<h5 id="App-svelte에-Header값-import"><a href="#App-svelte에-Header값-import" class="headerlink" title="App.svelte에 Header값 import"></a>App.svelte에 Header값 import</h5><ul>
+<li>이제 다시 App.svelte로 돌아와 조금전에 만든 Header를 import합니다.</li>
+<li>그리고 아래쪽에 Header을 선언만 해주면!!!! Header.svelte에서 입력한 값이 그자리에 그대로 들어가게됩니다.<br><img src="https://cdn.steemitimages.com/DQmefLMzYfDsgRmovYgnptAXDkSNq7S1GjZCgkECFD3yQGS/image.png" alt=""><br><img src="https://cdn.steemitimages.com/DQmZDzCZ1MmN6uR2mNszua4xp6BUy18yUyynJGYVXUShkkZ/image.png" alt=""></li>
+</ul>
+<h5 id="결과화면"><a href="#결과화면" class="headerlink" title="결과화면"></a>결과화면</h5><ul>
+<li>위에는 없었던 상단bar가 추가가 되었습니다.<br><img src="https://cdn.steemitimages.com/DQmZPwqZ71r5QqA26vEmSkgW5rju1miMhcZSaMjCdRE5ZYo/image.png" alt=""></li>
+</ul>
+<p>오늘은 여기까지!!! 다음소스에서는 조금더 기능들을 추가해보도록 하겠습니다.<br>평안한밤 되십시오!!</p>
+
+          
+            <br>
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-21T01:09:04+09:00">
+  <a class='notlink'>
+    <i class="fas fa-clock" aria-hidden="true"></i>
+    <p>updated at Feb 21, 2020</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct-kr/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct-kr</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct-freeboard/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct-freeboard</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/mini/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>mini</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/zzan/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>zzan</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/sct/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>sct</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/palnet/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>palnet</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/dblog/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>dblog</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/s/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>s</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/union/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>union</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/kr-dev/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>kr-dev</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
+          
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/uncategorized/ck6uxxgkj002ucpmgdrscfrc4/sct-happyberrysboy-dev-svelte-graphql-2/&title=[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2 | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
+          
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://localhost:4000/uncategorized/ck6uxxgkj002ucpmgdrscfrc4/sct-happyberrysboy-dev-svelte-graphql-2/&title=[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2 | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
+          
+          href="http://service.weibo.com/share/share.php?url=http://localhost:4000/uncategorized/ck6uxxgkj002ucpmgdrscfrc4/sct-happyberrysboy-dev-svelte-graphql-2/&title=[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2 | Happy Steem Blog&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png">
+          
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;Previous</h6>
+                            <h4>
+                                <a href="/uncategorized/ck6uxxgkx003rcpmgbm1m63pi/sct-happyberrysboy-happyberrysboy-posting-2020-02-06-00-59/" rel="prev" title="[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 3">
+                                  
+                                      [DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 3
+                                  
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/sct-kr/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-kr</a> <a class="tag" href="/tags/sct-freeboard/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-freeboard</a> <a class="tag" href="/tags/mini/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> mini</a> <a class="tag" href="/tags/zzan/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> zzan</a> <a class="tag" href="/tags/sct/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct</a> <a class="tag" href="/tags/palnet/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> palnet</a> <a class="tag" href="/tags/dblog/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> dblog</a> <a class="tag" href="/tags/s/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> s</a> <a class="tag" href="/tags/union/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> union</a> <a class="tag" href="/tags/kr-dev/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> kr-dev</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>Next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/uncategorized/ck6uxxgj40005cpmgei4q1ge1/sct-happyberrysboy-22bugl/" rel="prev" title="뽑기판 로또참여권 구매 기능 개발">
+                                    
+                                        뽑기판 로또참여권 구매 기능 개발
+                                    
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/sct-kr/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-kr</a> <a class="tag" href="/tags/sct-freeboard/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct-freeboard</a> <a class="tag" href="/tags/mini/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> mini</a> <a class="tag" href="/tags/zzan/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> zzan</a> <a class="tag" href="/tags/sct/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> sct</a> <a class="tag" href="/tags/palnet/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> palnet</a> <a class="tag" href="/tags/dblog/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> dblog</a> <a class="tag" href="/tags/s/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> s</a> <a class="tag" href="/tags/union/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> union</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: '[DEV] SVELTE + GraphQL을 이용하여 웹서비스 개발하기 - 2',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+    
+    
+      
+        
+          <section class='widget widget-blur blogger'>
+  <div class='content pure'>
+    
+      <div class='avatar'>
+        <img class='avatar' src='https://cdn.steemitimages.com/DQmYoGJM3gmtjZQ8PtW25HPqWHGzMgxu94XCc8nVGoAxntu/WHALE_COLORED_FIN_plat.jpg'/>
+      </div>
+    
+    
+      <div class='text'>
+        
+        
+        
+          <p><span id="jinrishici-sentence">Happy Steem Blog</span></p>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="mailto:happyaws191204@gmail.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/HappyBerrysBoy"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          
+  <section class='widget widget-blur toc-wrapper'>
+    <header class='pure'>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;바로가기</div>
+  
+    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
+  
+</header>
+
+    <div class='content pure'>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-React의-redux-Vue의-vuex에-해당하는-“sapper”가-아직-버전-1-0이-안된다"><span class="toc-text">1. React의 redux, Vue의 vuex에 해당하는 “sapper”가 아직 버전 1.0이 안된다.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-ui-frameowrk가-너무-적다"><span class="toc-text">2. ui frameowrk가 너무 적다.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-레퍼런스-역시-너무-적다"><span class="toc-text">3. 레퍼런스 역시 너무 적다.</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#그-래-서-아직은-시기상조로-판단하였습니다…-만"><span class="toc-text">그!래!서! 아직은 시기상조로 판단하였습니다….만!!</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#프로젝트명은-이름하여…-영어-문장-저장하기-및-랜덤하게-저장된-문장을-출력하여-영어문장-외워보기"><span class="toc-text">프로젝트명은..!!! 이름하여… 영어 문장 저장하기 및 랜덤하게 저장된 문장을 출력하여 영어문장 외워보기</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#오늘은-간단히"><span class="toc-text">오늘은 간단히..</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#프로젝트-생성"><span class="toc-text">프로젝트 생성</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#프로젝트생성"><span class="toc-text">프로젝트생성</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#body-넣기"><span class="toc-text">body 넣기</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#App-svelte"><span class="toc-text">App.svelte</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#main-js"><span class="toc-text">main.js</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Header-넣기"><span class="toc-text">Header 넣기</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Header-svelte를-만들어줍니다"><span class="toc-text">Header.svelte를 만들어줍니다.</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#App-svelte에-Header값-import"><span class="toc-text">App.svelte에 Header값 import</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#결과화면"><span class="toc-text">결과화면</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+          
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+          
+  <section class='widget widget-blur tagcloud'>
+    <header class='pure'>
+  <div><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;관심태그</div>
+  
+    <a class="rightBtn"
+    
+      rel="external nofollow noopener noreferrer"
+    
+    
+      target="_self"
+    
+    href="/blog/tags/"
+    title="blog/tags/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
+
+    <div class='content pure'>
+      <a href="/tags/aaa/" style="font-size: 14px; color: #999">aaa</a> <a href="/tags/bs/" style="font-size: 16.86px; color: #868686">bs</a> <a href="/tags/busy/" style="font-size: 14px; color: #999">busy</a> <a href="/tags/dblig/" style="font-size: 14px; color: #999">dblig</a> <a href="/tags/dblog/" style="font-size: 21.86px; color: #646464">dblog</a> <a href="/tags/kr-dev/" style="font-size: 15.43px; color: #8f8f8f">kr-dev</a> <a href="/tags/liv/" style="font-size: 19px; color: #777">liv</a> <a href="/tags/mini/" style="font-size: 21.86px; color: #646464">mini</a> <a href="/tags/muksteem/" style="font-size: 14px; color: #999">muksteem</a> <a href="/tags/palnet/" style="font-size: 21.14px; color: #686868">palnet</a> <a href="/tags/realclass/" style="font-size: 14px; color: #999">realclass</a> <a href="/tags/s/" style="font-size: 18.29px; color: #7c7c7c">s</a> <a href="/tags/sago/" style="font-size: 15.43px; color: #8f8f8f">sago</a> <a href="/tags/sb/" style="font-size: 14px; color: #999">sb</a> <a href="/tags/sct/" style="font-size: 22.57px; color: #5f5f5f">sct</a> <a href="/tags/sct-bitcoin/" style="font-size: 14px; color: #999">sct-bitcoin</a> <a href="/tags/sct-cartoon/" style="font-size: 14.71px; color: #949494">sct-cartoon</a> <a href="/tags/sct-dev/" style="font-size: 16.14px; color: #8a8a8a">sct-dev</a> <a href="/tags/sct-freeboard/" style="font-size: 19.71px; color: #727272">sct-freeboard</a> <a href="/tags/sct-game/" style="font-size: 17.57px; color: #818181">sct-game</a> <a href="/tags/sct-kr/" style="font-size: 24px; color: #555">sct-kr</a> <a href="/tags/sct-market/" style="font-size: 14.71px; color: #949494">sct-market</a> <a href="/tags/sct-movie/" style="font-size: 14px; color: #999">sct-movie</a> <a href="/tags/sct-notice/" style="font-size: 14px; color: #999">sct-notice</a> <a href="/tags/sct-producer/" style="font-size: 14px; color: #999">sct-producer</a> <a href="/tags/spt/" style="font-size: 17.57px; color: #818181">spt</a> <a href="/tags/test/" style="font-size: 14px; color: #999">test</a> <a href="/tags/union/" style="font-size: 20.43px; color: #6d6d6d">union</a> <a href="/tags/zzan/" style="font-size: 23.29px; color: #5a5a5a">zzan</a>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  
+</aside>
+
+<footer class="clearfix">
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:happyaws191204@gmail.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/HappyBerrysBoy"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  <br>
+  <div class="aplayer-container">
+    
+
+
+  </div>
+  <br>
+  <div><p>Blog content follows the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
+</div>
+  <div>
+    Use
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material X</a>
+    as theme
+    
+      , 
+      total visits
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      times
+    
+    . 
+  </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+  
+  
+    
+      
+<script src="/js/backstretch.min.js"></script>
+
+    
+    <script type="text/javascript">
+      $(function(){
+        if ('') {
+          $('').backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg", "https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg", "https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg", "https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+  
+<script src="/js/search.js"></script>
+
+
+
+  
+    
+<script src="/js/commentTyping.js"></script>
+
+  
+
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "Copied";
+  let COPY_FAILURE = "Copy failed";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
