@@ -11,6 +11,8 @@ tags:
   - dblog
   - liv
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmSugWn2tWFYXBsQSaYeuvbqv35UcbN31t75fXC61n2Sjc/image.png\" />\r\n안녕하세요 햅보이 입니다.  어제부터 오늘까지 청도에서 열심히 김장을 담그고나서 감말랭이도 확인 했습니다. 지금 거의다 만드셔서 배송이 가능한 것으로 파악되었습니다.!!  참고로 상품 실제 사진 먼저 보여드립니다.  #### 쿨하게 그냥 비닐봉지에 들어가 있는 감말랭이의 모습!! - 한조각의 크기가 그리 크진 않습니다만, 저게 원래 감이었다면, 감의 1/4....."
 date: 2019-11-24 23:58:51
 ---
 

@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmccCHhTNeEnJHLHWzTfmPr4NyDYeGMBKRTnN69JMLQ1Wv/image.png\" />\r\n안녕하세요 햅뽀이입니다.  조금전에 하급뽑기 라운드3에 잔여보상에 비해 남은 숫자가 너무 많아서, 라운드 종료를 시켰습니다. 아직 명확한 종료 기준이 있는 상태가 아니라서, 그대로 둔다고 해도 더 많은 분들이 할 것 같지 않아 종료하도록 하였습니다.  라운드3에 로또는 3등에 총 3분이 당첨되셨네요..!! 축하드립니다. 주인공은 1대 당첨자셨던 @virus....."
 date: 2020-01-22 02:11:57
 ---
 

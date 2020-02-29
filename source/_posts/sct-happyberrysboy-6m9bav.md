@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요, 햅뽀이입니다.  어제 [감말랭이 판매 글]( 올렸었지요. 감사하겠도 몇몇 분이 5kg 그램 만땅으로 많이들 사주셨습니다. 다시한번 대단히 감사드립니다.(배송은 아마도....."
 date: 2019-11-25 23:18:03
 ---
 

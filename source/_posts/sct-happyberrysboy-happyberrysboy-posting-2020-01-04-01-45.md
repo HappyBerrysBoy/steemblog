@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요, 햅뽀이입니다.    뽑기시 랜덤으로 보상을 선택해서 번호에 매치를 해주는 로직을 개발하여 적용하였습니다.  이제는 DB에 어느 번호가 보상이 걸리는 것인지 다 볼....."
 date: 2020-01-04 15:50:33
 ---
 

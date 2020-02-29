@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmXCF6nrkY32iU5bx1WebxEZMs1MPoi72T42GdCYcVrEcV/image.png\" />\r\n안녕하세요 햅뽀이입니다.    오늘도 뽑기판을 한번 둘러보니.... @wonsama님이 완뽑을 또 해버렸군요. 아직 리셋되려면 하루도 더 남았는데 말이죠 ㅠㅠ  리셋을 해버리면, 다음 리셋 시간이 너무 가까워지기도하고, 보팅권이 너무 남발되면 기존에 가진분들에게 손해가 될 수도 있을 것 같아 주기는 지키려고 하고 있습니다.    ### 완뽑!!!      ....."
 date: 2020-02-18 07:24:30
 ---
 

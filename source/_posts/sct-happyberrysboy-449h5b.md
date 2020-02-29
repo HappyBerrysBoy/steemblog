@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmamjTyndzXoeZnZ1rRKMFCgF4frT7zvhhh4Gsx73wuvvo/image.png\" />\r\n안녕하세요 햅뽀이입니다.  올해 하나의 목표가 생겼습니다. 바로 바로 영어공부!!! 평소에도 해야지 해야지 하다가... 그리 좋은 방법 같지는 않지만 돈이 아까워서라도 영어 공부를 하게 만드는 방법을 택하였습니다.    바로 이 과정인데요. 무려 1년짜리를 미리 결제하고 매월 목표를 달성해서 지원금을 받아나가는 과정입니다. (~~아이패드 10.2가 확 끌려....."
 date: 2020-01-06 20:07:12
 ---
 

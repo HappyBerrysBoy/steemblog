@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    어느덧 암호화폐 투자 만으로 3년이 다 되어 갑니다. 2017년 5월부터 했으니... 곧 3년차네요. 그 당시만해도 워낙 시장이 다이나믹하다보니....."
 date: 2020-02-10 12:42:30
 ---
 

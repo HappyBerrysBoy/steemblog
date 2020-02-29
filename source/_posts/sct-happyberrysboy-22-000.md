@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYFr4vVpnkfqNLixLwdU8V4DC8ZeakGRNLQg4KaPmiNcA/image.png\" />\r\n안녕하세요, 햅뽀이입니다.  제가 지난주초에 요금제를 변경하였는데요. 요금제에 조금 관심이 있는 분들이라면 이미 알고 계실 수도 있지만, 아주 저렴한 무제한 요금제가 나왔습니다.   #### 무려 22,000원에 데이터/전화/문자 무제한 요금제!!  이 가격으로 평생 가는건 아니구요, 1년간만 22,000원으로 청구됩니다. 그리고 이후에는 44,000원으로....."
 date: 2020-01-19 23:35:48
 ---
 

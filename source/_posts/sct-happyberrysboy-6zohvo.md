@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘은 크리스마스이브지요? 다들 즐겁게, 뜻깊게 보내고 계신지 모르겠습니다. 저는 오늘 둘째 녀석 유치원 재롱잔치가 있어서 거기 갔다가, 다시 회사로......"
 date: 2019-12-24 23:59:15
 ---
 

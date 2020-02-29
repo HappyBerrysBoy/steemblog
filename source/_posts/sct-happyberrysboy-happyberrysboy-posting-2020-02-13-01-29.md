@@ -12,6 +12,8 @@ tags:
   - palnet
   - spt
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmQSAppTtS1YpVSC55RY4kMFnDtkD9LPtRsanMGWaoubJx/image.png\" />\r\n안녕하세요 햅뽀이입니다.    스플린터랜드(이하 스몬) 모바일 웹버전이 출시가 되었습니다. 아직 되는거라곤 전투밖에 없긴하지만 그래도 이전에 폰으로 할 때 보다는 많이 할만 해졌습니다.    #### 다이아리그 2까지도 가능해 보입니다!! ^^      기존에는 PC로 많이 했었는데 요즘은 짬이 잘 나지 않아 모바일로 종종 즐겼었는데, 이렇게 별도로 출시가....."
 date: 2020-02-13 02:09:30
 ---
 

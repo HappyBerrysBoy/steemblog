@@ -4,16 +4,16 @@
 
 # Site
 title: Happy Steem Blog
-subtitle: 'Happyberrysboy Steem Blog'
-description: 'https://www.steemcoinpan.com/@happyberrysboy'
+subtitle: "Happyberrysboy Steem Blog"
+description: "https://www.steemcoinpan.com/@happyberrysboy"
 keywords:
 author: happyberrysboy
 language: kr
-timezone: ''
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000/
+url: http://happyberrysboy.github.io/
 root: /
 permalink: :category/:id/:title/
 permalink_defaults:
@@ -42,7 +42,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -52,7 +52,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 
@@ -61,12 +61,12 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: sct
 category_map:
 tag_map:
 
@@ -103,15 +103,14 @@ theme: material-x
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/happyberrysboy/happyberrysboy.github.io.git 
+  repo: https://github.com/happyberrysboy/happyberrysboy.github.io.git
   branch: master
 
-
 # Book Theme Configuration
-home_page: home.md        # filepath under /source/_posts/
-menu_page: menu.md        # filepath under /source/_posts/
-author_img:               # filepath of author image
-favicon_url: favicon.png  # filepath of favicon
+home_page: home.md # filepath under /source/_posts/
+menu_page: menu.md # filepath under /source/_posts/
+author_img: # filepath of author image
+favicon_url: favicon.png # filepath of favicon
 
 zoom_image: true
 codeblock:
@@ -135,7 +134,7 @@ comments:
     ClientID: # GitHub Application Client ID
     ClientSecret: # GitHub Application Client Secret
     adminUser: # GitHub repository owner and collaborators
-    labels: 'gitalk' # GitHub issue labels
+    labels: "gitalk" # GitHub issue labels
     distractionFreeMode: true
 
-google_analytics: # UA-XXXXX-Y
+google_analytics: UA-159316060-1

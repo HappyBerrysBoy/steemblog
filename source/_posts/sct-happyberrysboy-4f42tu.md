@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/steemitimages.com/640x0/https://cdn.steemitimages.com/DQmU8hwnAWm29BmczzrLHGfxPhDsUyr8VQwF8UiFdRrFgjY/％EC％83％88％20％ED％8C％8C％EC％9D％BC％202019-02-27％2017.53.44_2.jpg)  안녕하세요 햅보이입니다.  12시가 지나서 토요일이군요. 오늘....."
 date: 2019-11-23 00:58:18
 ---
 

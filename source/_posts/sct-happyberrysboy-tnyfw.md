@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYMr9r8mvAQQpAGARXX2arMbEryRKmg4rr2qFWS3HDtFc/image.png\" />\r\n안녕하세요 햅뽀이입니다.  조금전에 **하급 뽑기판**을 오픈하였습니다.(기존에는 하수 뽑기판이라고 명명하였었는데, 어감이 별로라.. 이름을 변경하였습니다.    참고로 하급뽑기는 **뽑기권**을 구매하여야 사용하실 수 있으니 뽑기권이 없으신분은 아래 메뉴에서 뽑기권을 구매한 후 참여해주시면 됩니다.     ##### 잔여보상을 보시면, 총 3가지로 구분됩....."
 date: 2020-01-16 23:52:54
 ---
 

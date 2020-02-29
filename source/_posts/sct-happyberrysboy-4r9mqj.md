@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmP7S6Bi8Wvx4GxSHbqzVjxJXodcDmS6tCZSEMfZHnEEuh/image.png\" />\r\n안녕하세요 햅뽀이입니다.    그렇습니다. 애들 씻기고 재우러 가기전만해도 번호가 8개정도 남아 있었고, 보상도 자잘한 것들만 남아서, 이제 리셋해야 할 시기라고 생각했는데, 이게 웬걸... 지금보니 완전 모두 뽑아가셨군요. 잔여보상이 제일 마지막 번호까지도 남아 있었나 봅니다. 아니고서야 아무것도 안나오는데 그냥 번호만 뽑으셨을리 만무..?? 할듯 싶은데....."
 date: 2020-01-17 23:49:51
 ---
 

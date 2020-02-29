@@ -12,6 +12,8 @@ tags:
   - aaa
   - liv
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmSBcGM9vT2EG8sPxs4TPSBMdJfnACX8yVfSYPQJSq7Z4D/image.png\" />\r\n  안녕하세요 햅뽀이입니다.  오늘 회사 전체 회식이었는데 1차만 끝나고(소주 1병 이상 마시긴 했는데...) 2차에서 몰래 나와서 영화 \"시동\"을 보러 갔습니다. 원래 이렇게 중간에 나오고 하는 스타일은 아닌데, 시동을 너무 보고 싶기도해서 그냥 확 빠져나와 버렸네요.  원래 총 4명이서 보려고 했는데, 그만 2명은 붙들려서 탈출하지 못했습니다. ㅠㅠ 그....."
 date: 2019-12-20 02:38:30
 ---
 

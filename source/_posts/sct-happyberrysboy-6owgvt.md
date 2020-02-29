@@ -11,6 +11,8 @@ tags:
   - palnet
   - dblog
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmXWFwdKSuNfaq95hLP1fghiXd7V4BmnydjCAHT62pMK6T/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘의 스몬이야기!!   오늘은 일퀘가 토너먼트 1승이 뜨더군요..!!! 앜!! 토너먼트라고는 한번도 도전해본적이 없는데 말이죠 ㅠㅠ 자주 있지도 않은 토너먼트에 카드도 몇장 없는 제가 도전을 하려고 보니, 오늘 밤 10시에 있는 **골드카드 실버등급** 경기가 보이더군요. 몇 장 없는데 참여가 되나 싶어서 눌러 보니, 일단 참여....."
 date: 2019-12-12 23:24:57
 ---
 

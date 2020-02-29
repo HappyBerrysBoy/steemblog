@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    어제는 날씨가 조금 추웠었네요. 그저께는 너무 따뜻해서 어제도 따뜻할까 싶어서 나갔다가, 아이들 감기 들까봐 얼른 들어왔습니다. 그리고 집구석에....."
 date: 2020-02-17 07:24:30
 ---
 

@@ -12,6 +12,8 @@ tags:
   - palnet
   - kr-dev
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmTrDZQc777cBrg9Vf5GyoTh1kohNAAymUpUcKj9mYhGWz/image.png\" />\r\n    안녕하세요 햅뽀이입니다.    제가 웹서비스를 개발하고자 하는데 사용할 기술들의 현재 위치가 어느정도 인지 보도록 하겠습니다. 여기에 사용된 자료는 모두 [노마더 코드의 유튜브]( 발췌하였습니다. 언제봐도 친절해 보이는 우리 노마더코드 니꼴라스 형님의 유튜브 매우 추천드려봅니다...!!    ___    ##### 프론트엔드 프레임워크의 관심도를 나....."
 date: 2020-02-01 21:40:30
 ---
 

@@ -11,6 +11,8 @@ tags:
   - palnet
   - dblog
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmbqXEMzc8TAqd74PU2kQS8fF6fHMMRsT9CLVRg3FvAHhc/image.png\" />\r\n안녕하세요 햅뽀이입니다.  제목에서 대충 하려는 말이 보일 것 같습니다. ㅠㅠ 네네.. 언테임드 팩 575개를 물약 80％ 먹여가면서 뽑아봤지만, 웬지 모를 눈물이 앞을 가리는군요. ㅎㅎ  ##### 골드 레전더리는 0!, 골드 에픽도 단 2장이네요   ##### 레어는 좀 합치긴 했는데 대략 29장 정도 나온 것 같습니다.   ##### 그냥 레전더리와 ....."
 date: 2019-12-03 23:42:57
 ---
 

@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요, 햅뽀이입니다.  제목에 보시다시피 어제가 결혼기념일이었습니다. 또 제목에서 느낌이 오다시피 저는 생각도 하지 못했었네요. 그러면 언제 알게됐는가 하니 오늘 와이프의 ....."
 date: 2020-01-10 21:37:45
 ---
 

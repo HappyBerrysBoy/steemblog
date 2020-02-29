@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  몇 라운드의 뽑기 시뮬레이션을 거치고 뽑기 자동화를 적용하였습니다. 지금까지는 수동으로 뽑기추첨 및 뽑기판 생성을 하였었는데,  이제는 3일에 한번씩 ....."
 date: 2020-01-28 22:32:15
 ---
 

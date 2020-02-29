@@ -12,6 +12,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYWWnyMTtvLJVEsLPyC14HvvLmQfbL9T6yNpoevm5RfuU/image.png\" />\r\n안녕하세요 햅뽀이입니다.  와... 이거 스몬이 알아가면 알아갈수록 매력적이네요. 생각보다 대부분의 면에서 꽤나 탄탄합니다. 게임의 질과 구성이 말이죠.  스타터팩을 지르고 초반에는 그닥 할 것이 없어서, 방치 위주로 하다가, 언테임드 지른 이후로 이게 또 달라보입니다. 새로나온 룰과 카드들, 게임 매치 이후 더 흥미로워 진 것 같습니다. 카드 수량이 너무....."
 date: 2019-12-11 23:04:27
 ---
 

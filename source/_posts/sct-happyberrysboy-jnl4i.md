@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmbQoytkZM4tXBfm9H21oijAh7yrddn2HiK5dYgkvUVAiw/image.png\" />\r\n안녕하세요 햅뽀이입니다.   오늘 여기저기서 언테임드 팩 까는 소리가 들리는 것 같습니다. 저는 낮에 시간이 조금 있어서 까기 시작했는데... 초짜 티내는 것도 아니고 무려.. 1장씩 20팩정도를 깠습니다.  그걸 그렇게 쪼으면서 까냐고요? 그게 아니라 그 방법 밖에 몰랐었습니다.. 그러다가 이건 좀 아닌 것 같아서 여기 저기 눌러보니 우측에 수량 정해서 ....."
 date: 2019-12-01 23:36:57
 ---
 

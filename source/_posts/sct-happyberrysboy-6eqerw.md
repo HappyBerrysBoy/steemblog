@@ -11,6 +11,8 @@ tags:
   - liv
   - dblog
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  이번주 초에 [판매 했던 감말랭이]( 어제 배송에 출발하여, 오늘 도착하여 맛을 본 분들이 몇 있으십니다.   @kopasi, @lucky2, @fen....."
 date: 2019-11-28 23:48:36
 ---
 

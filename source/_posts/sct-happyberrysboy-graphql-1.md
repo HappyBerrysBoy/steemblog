@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmQfLngNsvtMszhqdiGXkBjYQquKCRucxTXrNBjVjG1991/image.png\" />\r\n  안녕하세요 햅뽀이입니다.  새해니까!! 올해도 열심히 개발 공부를 하겠다는 목표를 세웠습니다. 일단 Nomad Coders Academy에 있는 무료 강의들 중에 관심 있었던 것들 부터 들어 볼까 합니다.  그 중의 첫번째가 GraphQL입니다.  동영상 강의 자체는 모두 들었고, 실제로 개발하면서 정리하는 시간을 가져보려 합니다.  강의 위치 :   ....."
 date: 2020-01-07 20:52:33
 ---
 

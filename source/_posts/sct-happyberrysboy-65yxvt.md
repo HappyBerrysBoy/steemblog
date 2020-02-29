@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘 조금 전에 포스팅 피 관련 포스팅을 하였습니다. 도입으로 인한 효과는 시간이 지나 봐야 알겠지요.   일단 개발자인 저에게 다음 개발건으로는 뽑기....."
 date: 2019-12-15 02:39:06
 ---
 

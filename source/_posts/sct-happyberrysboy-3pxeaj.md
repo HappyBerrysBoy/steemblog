@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYADdMN34HVq6EnL4FbHNm5vgWgPzXrfkxbgRtxzD4S9E/image.png\" />\r\n안녕하세요 햅뽀이입니다.   리얼클래스 영어학습을 신청하면서 받았더랬죠 아이패드를..!! 그래서 바로 애플펜슬도 질렀더랬죠!! 케이스도 샀고 말이죠..!!  그러면 써야 할 것 아닙니까?  제일 활용하고 싶었던 기능이 노트랑 필기쪽이라서 오늘 또 질렀습니다.  ### Goodnotes!!   #### 9,900원! 저렴하네요!!(기능이 어마무시하거든요~(라....."
 date: 2020-01-22 18:46:27
 ---
 

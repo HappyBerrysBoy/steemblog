@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.   불금이군요!! 저에게는 불코딩데이입니다.  내일부터 스코판이 적용되어야 하는 것들이 2가지가 있어 작업을 좀 했습니다.  ___  #### SCTR/....."
 date: 2020-01-03 23:04:51
 ---
 

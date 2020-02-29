@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmWiCjQMt7gKNu92qgENv1kKMaq6cdwCSrsRtWmoQp1y9C/image.png\" />\r\n안녕하세요 햅뽀이입니다.     뽑기판 업그레이드를 좀 더 진행하였습니다.(아직 배포 전이긴 합니다.)    먼저 4가지 정도 변화 된 점을 알려드리겠습니다.(확정은 아니지만 이렇게 해볼까 합니다.)    #### 현재 테스트 중인 전체 페이지 뷰      ___    ### 1.  로그인 기능 추가  - 우측 상단에 로그인 기능을 추가 하였습니다.  - ....."
 date: 2020-01-08 14:40:30
 ---
 

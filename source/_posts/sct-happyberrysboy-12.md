@@ -10,6 +10,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요, 햅뽀이입니다.  아함.. 이제 잠이 오는군요. 자고 일어나면, 전라도로 운전을 해서 가야합니다. 바로 스코판 운영진들과  M.T를 하기 때문이지요. 워크샵이라고 말하....."
 date: 2019-12-21 01:41:15
 ---
 

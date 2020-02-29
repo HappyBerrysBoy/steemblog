@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    지난번에 제가 **리얼클래스** 라는 온라인 영어를 수강했다고 했지요. 가격이 무려 125만원........ 3년간 이용할 수 있는.. 그런 상....."
 date: 2020-01-29 18:40:30
 ---
 

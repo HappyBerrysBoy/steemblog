@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmW6j86iK39mNUCf91XV23hJxLBpRnjgsB4aeb8TVvJFy7/image.png\" />\r\n  안녕하세요 햅뽀이입니다.  하급뽑기 라운드2가 시작되었습니다. 이번에는 몇 가지 변경된 점이 있습니다. 자세한 점은 [공지글]( 참고해주시면 됩니다.  2단계의 포함된 보상들 중에 보팅권(100％ 짜리 1개당 대략 20 SCT 가치)만 하더라도 총 80개가 들어 있어 총 1600 SCT의 가치가 있는 것으로 판단됩니다.  실제로 판매된 보팅권은 1500....."
 date: 2020-01-18 23:39:15
 ---
 

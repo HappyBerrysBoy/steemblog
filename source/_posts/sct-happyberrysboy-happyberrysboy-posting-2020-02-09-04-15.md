@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmeftEVjUkvqwjyXpUx4oCafC1qU4NM1QMMF6cPtZCBmxD/image.png\" />\r\n    안녕하세요, 햅뽀이입니다.    이미 오늘 뽑기판을 들르신 분들이시라면 아시겠지만, 또 하나 로또참여권을 구매 할 수 있는 수단이 추가 되었습니다.    ### 바로바로 KRWP    - 아래이미지와 같이 KRWP가 가운데 추가되었습니다.  - KRWP는 1000원으로 계산하여 뽑기권을 구매 하실 수 있는 상태입니다.      ### 당연히 KRWP....."
 date: 2020-02-09 12:41:30
 ---
 

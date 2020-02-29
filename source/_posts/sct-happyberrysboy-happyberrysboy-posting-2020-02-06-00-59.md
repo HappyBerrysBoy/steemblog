@@ -12,6 +12,8 @@ tags:
   - palnet
   - kr-dev
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmUJgdEZ9XLqv1eiMEKLSRxXdS83NgDmDZajHtmaegYkQN/image.png\" />\r\n안녕하세요, 햅뽀이입니다.    어제에 이어 svelte 조금더 진행해봅니다.  아직 GraphQL까지는 안들어 갔고, Svelte로 화면 개발부분입니다.    오늘은 영어문장입력 텍스트박스, 해석 텍스트박스, 추가하는 버튼과 결과를 테이블 형태로 보여주는 부분을 하겠습니다.    ___    ### 영어문장입력 텍스트박스(InputSentense.svel....."
 date: 2020-02-06 11:40:30
 ---
 

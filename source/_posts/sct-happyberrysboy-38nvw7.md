@@ -12,6 +12,8 @@ tags:
   - liv
   - dblog
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmcbmWCrRDPhfmpMcLbo5x6fwRvEqd2ELEM1nS56HDJFvp/image.png\" />\r\n  안녕하세요 햅뽀이입니다.  오늘 크리스마스였는데 다들 잘 보내셨나 모르겠습니다. 저는 가족들과 아이들을 위한 \"신비아파트\" 영화를보고 맛있는 음식을 먹으며 시간을 보냈네요. 그리고 선물도 하나 사주고 말이죠!! 어휴.. 정말 부지런히 벌어야겠습니다. ㅠㅠ  ___  요즘 제가 하고 있는 게임 **브롤스타즈**에서도 크리스마스 기념으로 다양한 행사를 하고....."
 date: 2019-12-25 23:40:18
 ---
 

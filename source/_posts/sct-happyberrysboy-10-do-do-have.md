@@ -7,6 +7,8 @@ tags:
   - zzan
   - realclass
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/640x0/https:/\" />\r\n/cdn.steemitimages.com/DQmWJLp5MnEqb1dNdQYy2ap7VsC2ZFARaJwoy3SvKPWUrZk/image.png  > 앜.... 계정 착오가 있었네요.. ㅠㅠ 내용을 따로 지우지는 않겠습니다!! ㅠㅠ  ___  안녕하세요 햅뽀이입니다.  역시나 오늘도 쉽습니다. 너무 ㅠㅠ 두개를 듣고 싶었는데 시간이 없어서 일단 오늘은 짧게....."
 date: 2020-02-10 22:14:00
 ---
 

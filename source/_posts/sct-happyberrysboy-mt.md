@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  드디어 다녀왔습니다. 운영진 모임 MT를 말이죠. 어찌 보면 짧은 1박 2일의 만남이었지만 새벽 3시까지 이야기와 이야기와 이야기.. 많은 이야기가 오....."
 date: 2019-12-22 23:23:06
 ---
 

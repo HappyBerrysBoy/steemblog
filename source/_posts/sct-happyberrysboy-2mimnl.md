@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  드디어 뽑기판 기본모델 개발이 완료되었습니다. 겉보기에는 그리 이쁘지는 않지만, 내부적으로는 많은 기능들이 동작하고 있습니다. 일단은 무료로 하루 1회....."
 date: 2019-12-30 20:06:48
 ---
 

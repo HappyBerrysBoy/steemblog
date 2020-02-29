@@ -11,6 +11,8 @@ tags:
   - palnet
   - mini
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmemHSpCDBTqUP5vVr98CW3D3fq1hjsXRaCYhvZM1nyLcS/image.png\" />\r\n안녕하세요 햅뽀이입니다.  최근 스팀몬스터 개발속도가 장난이 아닌듯 싶네요. 스팀 이외의 여러 체인(tron, wax, ethereum(본보기용))에도 올림과 동시에 게임 컨텐츠 업데이트(언테임드, 리워드 카드) 까지 다방면으로 쉴새 없이 변화를 보이고 있습니다.  최근 시즌에 저도 골드1까지 찍어보고 나니, 이거 적어도 암호화폐계에서는 통하겠는데? 라는 ....."
 date: 2019-12-17 01:20:36
 ---
 

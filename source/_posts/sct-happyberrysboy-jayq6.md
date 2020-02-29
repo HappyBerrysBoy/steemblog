@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmahqJMYYwTQR6q6zYth7kt7mjEWbQRgj7bFGA5wZ5qoMt/image.png\" />\r\n안녕하세요, 햅뽀이입니다.  어제는 술을 정말 오지고 지리게 많이 마셔서 포스팅을 팅~ 날려 버렸습니다. ㅠㅠ 덕분에 아직도 속이 100％ 회복되지 않은 듯하고, 안경도 잃어버렸다는.... ㅠㅠ  와이프가 뭐라고 하진 않았지만, 눈살은 이미 태권도 V의 레이저 광선입니다.(태권도V가 눈레이저가 나갔는지는 가물가물..)  그리고 오늘은 딸아이가 다니는 무용학....."
 date: 2020-01-15 23:14:27
 ---
 

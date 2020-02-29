@@ -10,6 +10,8 @@ tags:
   - palnet
   - dblog
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘은 회사에 같은학교 같은학과 후배가 곧 결혼을 한다고 하며 한잔 쏜다고 해서 참석을 하고 왔습니다. 총 4명이 만났는데 모두다 같은 과 후배........."
 date: 2020-01-14 01:49:48
 ---
 

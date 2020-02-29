@@ -12,6 +12,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘 회사 옆부서 팀장님의 장인어른 상이 있어서 다녀왔습니다. 조금 전에 도착을 했는데요. 모든 죽음이 다 안타깝지만, 본인도 생각지 못하는 사고로 인....."
 date: 2019-12-09 23:36:27
 ---
 

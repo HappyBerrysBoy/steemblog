@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요? 햅뽀이입니다!  2020년이라니... 그렇습니다. 다가왔습니다. 나이는 이제 30대 킹 후반이 되었구요. 아이들은 9세와 7세.. 무럭무럭 자라는군요!   헬조선이라....."
 date: 2020-01-01 22:56:06
 ---
 

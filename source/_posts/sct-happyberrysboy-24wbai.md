@@ -11,6 +11,8 @@ tags:
   - liv
   - dblog
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmQwMrrBfVUmYKydHnQB9xYSsDZEiyd9RmfREnT1QpwoDA/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘 회사에서 당직이라 뽑기 기능 업그레이드를 조금 했습니다. 이제 조금만 더 손보면, 일단 간단히 작은 기능만 해서 오픈 할 수 있을 정도가 된 것 같습니다.  ___  #### 뽑기 - 좌측 상단 뽑기 라운드가 표시됩니다. - 라운드는 매일 갱신 되도록 할 예정입니다. - 최초 뽑기 기능은 보팅만 넣을 예정입니다. - 다른 사....."
 date: 2019-12-28 17:26:51
 ---
 

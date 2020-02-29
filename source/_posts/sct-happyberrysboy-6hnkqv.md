@@ -10,6 +10,8 @@ tags:
   - dblog
   - liv
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmaaaqk6FidZ2xfyDaNJ3fUKdyVXJ7EVZ4RN5UDBgMYZzH/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘 퇴근하고 집에 들어오니 아이들이 반갑게 맞이하면서 오늘 만든 크리스마스 카드라며 봐달라고 합니다.(귀여운 시키들.. 항상 집에 들어올 때마다 환영해주는 아이들 둘이 있어서 너무 행복하네요.. ^^)  어디서 만들었는지, 나름 꼼꼼히 이쁘게 잘 만들었네요. 그래도 미술학원을 1년 가까이 다녀서 그런지 꽤나 퀄리티가 나오는 것 ....."
 date: 2019-12-24 00:00:15
 ---
 

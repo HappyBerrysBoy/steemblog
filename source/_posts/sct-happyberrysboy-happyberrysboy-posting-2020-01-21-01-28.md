@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmSKjwqmetVw7pErNLopAp61mjT48b2uNtzNtc3HwXXePa/image.png\" />\r\n안녕하세요 햅뽀이입니다.    뽑기 관련하여  업데이트가 몇 가지 있어 알려드립니다.    ##### 1. 로또 명칭 변경 및 영어버전 추가  - 기존에 **뽑기 도전**에서 **행운의 뽑기**로 명칭 변경하였습니다.  - 이유는 영어로 추가하려다 보니 대세가 **Lucky Draw** 인 것 같아서 한국어로 똑같이 맞췄습니다.  - 그리고 영어 버전도 추....."
 date: 2020-01-21 16:40:33
 ---
 

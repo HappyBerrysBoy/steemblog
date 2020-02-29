@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg) 안녕하세오 햅뽀이입니다.  현재 스코판 운영진에서는 여러가지 정책 및 기능들을 도입하고 있습니다.  1. 저자보상을 KRWP로 변환하여 수령 : 저자 보상 SCT만큼 KRWP로 변....."
 date: 2019-12-02 20:37:21
 ---
 

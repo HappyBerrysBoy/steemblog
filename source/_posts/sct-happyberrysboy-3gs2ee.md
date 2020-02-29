@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYHTGAYafhLPus99gFFWwuXHQybEZ3R36Lkakf32twLKv/image.png\" />\r\n안녕하세요 햅뽀이입니다.  와우..!! 저는 평소에 뽑기 운이 그리 좋은 편이 아니었는데..!! 오늘은 정말 대박이 터졌습니다..!! 바로 이녀석을 득!!  ##### 어리지만 눈매가 사납군요? ㅎ   용족이면서도 마나코스트가 고작 2밖에 되지 않는 실전에서 용족을 선택하면다면 무조건 선택을 할 그런 녀석이라고 말씀드릴 수가 있지요.  #### 두말할 필요....."
 date: 2020-02-03 16:28:12
 ---
 

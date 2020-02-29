@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  현재 SCT 정책의 일환으로 포스팅시에 수수료를 받는 부분을 개발하고 있습니다. 포스팅피 지불을 하지 않으시려면 @sct.krwp를 100％로 베니피셔....."
 date: 2019-11-29 23:27:06
 ---
 

@@ -12,6 +12,8 @@ tags:
   - palnet
   - kr-dev
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmTrDZQc777cBrg9Vf5GyoTh1kohNAAymUpUcKj9mYhGWz/image.png\" />\r\n    안녕하세요 햅뽀이입니다.    오늘 새롭게 알게된 웹프레임워크가 있습니다. Svelte 라는 것인데, 현재 3대장인 React, Vue, Angular의 아성에 도전하는 프로젝트입니다. 사용법이 위 3대장중 가장 쉽다는 Vue 보다도 간결하고 이해가 쉽고 직관적인걸로 보여서 Svelte를 이용해서 한번 웹서비스를 만들어 볼까 합니다.    그리고 서....."
 date: 2020-01-31 20:40:30
 ---
 

@@ -12,6 +12,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmfUacR7chFiUT4Mhbp3UPU6P768rk5KeGK9ZfMcAYEt5P/image.png\" />\r\n안녕하세요, 햅뽀이입니다.  스팀몬스터 리그종료가 코앞으로 다가왔습니다. 이제 언테임드팩도 곧 수령할 수 있게 되겠군요!!! 골레야 많이뜨자!!! 믿는다!!! ㅎㅎ  언테임드 전까지는 일단 지르는걸 중단해놓고, 언테임드 이후에 추이를 살펴보려고 하고 있습니다. 그러다 보니 아직도 가진 카드는 허접 of 허접.. 끽해야 실버에서 조금 비비는 정도의 수준이었지....."
 date: 2019-11-30 23:00:36
 ---
 

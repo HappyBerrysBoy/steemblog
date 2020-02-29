@@ -11,6 +11,8 @@ tags:
   - palnet
   - dblog
 author: happyberrysboy
+categories: blockchain
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmdYFVAdKrWXiqXmwkMPurWKmFyUvL3vAEEzMYEpCr4iJF/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘은 좀 늦게까지 야근을 하고, 이것저것 개발 하고 싶은 것을 하다가 퇴근즈음 업빗을 한번 들어가 보았습니다. 오늘 낮에는 대체로 모든 종목이 파랗게 파랗게 물들어서, 그간 많이 올랐으니 좀 쉬어 가는 타이밍이려나? 생각을 하고 있었습니다.  1, 2주정도 더 천천히 올라가도 되겠지라고 생각하면서 말이죠.  그랬는데 조금전에 보....."
 date: 2020-02-12 02:08:48
 ---
 

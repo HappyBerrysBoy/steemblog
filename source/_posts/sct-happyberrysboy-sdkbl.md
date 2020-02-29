@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘은 술자리가 있어 이른 저녁부터 술집을 찾으러 열심히 돌아다녔습니다. 그런데 부산인데도 불구하고 추워도 추워도 너무 추운 것이었습니다.  다행히 올....."
 date: 2019-12-07 03:29:51
 ---
 

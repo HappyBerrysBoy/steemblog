@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmaeEbeEAWr6csF6kg9cNejqEXQp2JABXhxDMTuzeNzZZz/image.png\" />\r\n안녕하세요 햅뽀이입니다.  명절이 다가오고 있네요. 여기저기 다른 곳에 선물을 보내실 분들은 오늘 밤늦게라도 구매를 하시는 것이 설전에 도착 할 수 있는 방법이지 않을까 싶습니다. 저도 조금 전에 와이프 지인 5명에게 선물을 보냈네요. 지난번 명절은 바쁘기도 해서 조금 늑장을 부렸더니 설 지나고 선물이 도착한 곳이 여러곳 ㅠㅠ  그리고 딸아이 한복도 하나샀....."
 date: 2020-01-20 23:15:51
 ---
 

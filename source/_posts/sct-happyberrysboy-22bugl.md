@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmZugUv7cNrZgE1W4yhzqcdtzRvaZraVMmX3VG7HMXUQsH/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오래간만에 오늘 뽑기쪽에 업데이트가 있었습니다. 라운드8부터 로또추첨방식이 바뀌면서 그 뒤로 당첨자가 아직 1명도 나오지 않고 있군요. 그러면서 점차적으로 보상 총액이 잘 쌓이고 있습니다.    여기에 또 한국인의 숨어 있는 승부사 기질을 끄집어 내기위해서 기능을 추가하였습니다.  바로바로....  ### 로또참여권 구매기능!! ....."
 date: 2020-02-04 21:10:45
 ---
 

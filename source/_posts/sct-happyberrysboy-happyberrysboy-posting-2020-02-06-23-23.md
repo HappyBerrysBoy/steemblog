@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmda6bggK7e5HvvzKjvm82t5wHZtrFcXRUrW139v9e44b7/image.png\" />\r\n안녕하세요 햅뽀이입니다.    뽑기에 대박 보팅권이 추가됩니다. 이름하여 44만 보팅권..!!  @kopasi.sct 계정의 보팅권이 추가되었습니다.    ### 보이십니까!! 이 스파가!!    ___    보팅권 수량이 얼마나 되느냐? 하면은….    50％ 20개, 100％ 10개가 추가 될 예정입니다.(총 2000％ 수준)    이게 뭐가 대박이냐?....."
 date: 2020-02-07 12:40:33
 ---
 

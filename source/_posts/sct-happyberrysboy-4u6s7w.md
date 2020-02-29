@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  저는 오늘 1월 2일... 새해 하루 지나자 마자 한잔 거하게 마시고 들어 왔네요. 약간의 영업적인 마인드와 저도 술을 싫어하지는 않기에 한잔 걸치고 ....."
 date: 2020-01-02 23:59:15
 ---
 

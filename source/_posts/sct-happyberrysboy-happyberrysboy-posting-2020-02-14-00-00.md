@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    제목에서 보시다 시피 이제 KRWP로 하급뽑기권을 구매하실 수 있습니다.  기존에는 SCT로만 구매가 가능했었는데, 요즘 SCT가 다들 궁하신지....."
 date: 2020-02-14 02:10:30
 ---
 

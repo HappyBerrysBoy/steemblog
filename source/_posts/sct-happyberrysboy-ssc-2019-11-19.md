@@ -10,6 +10,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmPRYEm6FpXWoU5mDjxfZeFgo5JMM7Hf1UF7iNWM3tUihr/image.png\" />\r\n안녕하세요 햅뽀이입니다.  현재 SSC Node(Ver 0.1.8)는 잘 돌아가고 있습니다.!  같이 노드 운영자로 참여하고 있는 @Nalexadre 유저가 벌써 이렇게 멋들어진 노드 운영자(증인) 사이트를 만들어 냈습니다. 현재 총 9개의 노드가 작동중이고 여기에는 @wonsama님과 @goodhello님까지 KR에서는 총 3팀이 참여하고 있습니다.   ....."
 date: 2019-11-20 01:24:24
 ---
 

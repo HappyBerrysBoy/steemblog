@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmPDNQKDjqS5Pmpvy6mGDUBe2ryVMB4nociuLZS7MpSUGU/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘은 회사업무를 단축근무를 했는데요, 2시쯤 마쳐서 회사 분들과 **송도 암남공원**에 조개구이를 먹으러 출동 했습니다. 저는 다른 곳(태종대, 청사포, 자갈치) 등에서 종종 먹어보긴 했었는데, 그 중에서 오늘 먹은 조개구이가 가장 좋았었습니다.  ##### 이것이 오늘 먹은 8만원 짜리 메뉴입니다.(성인 4명)    저기 보이....."
 date: 2020-01-23 21:50:33
 ---
 

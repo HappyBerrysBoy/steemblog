@@ -26,6 +26,6 @@
     "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-steem": "git+https://github.com/anpigon/hexo-steem.git"
+    "hexo-steem": "git+https://github.com/HappyBerrysBoy/hexo-steem.git"
   }
 }

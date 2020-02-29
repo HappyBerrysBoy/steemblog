@@ -12,6 +12,8 @@ tags:
   - busy
   - dblog
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmTV2CPMoZckzprwHqKYzVR5eCJufVG29XqLU8MHHjG6sZ/image.png\" />\r\n안녕하세요 햅뽀이입니다.    스몬 이번 시즌이 마무리가 코앞입니다.  그리고 저는 이번 시즌 목표였던 골드리그 1을 달성하였습니다..!! ㅠㅠ  얼마전까지 실버 1, 2에서 깝죽되고 있었는데, 역시 **실력**을 좀 늘리니 어느새 이렇게까지 높은 리그로 올라 올 수 있었던 것 같습니다.        이번 시즌 저의 1등 공신은 의외로 데스덱이었습니다. 2....."
 date: 2019-12-16 04:20:33
 ---
 

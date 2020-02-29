@@ -11,6 +11,8 @@ tags:
   - palnet
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/640x0/https:/\" />\r\n/cdn.steemitimages.com/DQmU8hwnAWm29BmczzrLHGfxPhDsUyr8VQwF8UiFdRrFgjY/％EC％83％88％20％ED％8C％8C％EC％9D％BC％202019-02-27％2017.53.44_2.jpg  안녕하세요 햅뽀이입니다.  월요일 웹툰에 이어 화요일 웹툰 소개 시작합니다.  매일 달아서 쓰려다가, 또 사이트 개발건이....."
 date: 2019-11-27 23:11:42
 ---
 

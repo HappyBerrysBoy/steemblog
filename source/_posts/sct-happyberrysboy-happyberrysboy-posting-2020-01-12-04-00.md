@@ -12,6 +12,8 @@ tags:
   - dblog
   - ''
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    뽑기 개발이 생각보단 좀 오래 걸리네요. 작업량이 꽤나 됩니다. ㅠㅠ    일단 무료뽑기 이후로 이번에는 뽑기권 구매까지 개발하였습니다. 뽑기판....."
 date: 2020-01-12 13:40:30
 ---
 

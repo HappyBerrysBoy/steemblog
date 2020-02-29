@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요, 햅뽀이입니다.   오늘 오픈채팅방에서 @kopasi님이 저자 보상을 SCT대신 KRWP로 변환하여 발행되는 로직을 테스트 중이라고 말씀드렸습니다. 그리고 그와 동시에....."
 date: 2019-11-26 18:22:30
 ---
 

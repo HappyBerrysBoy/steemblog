@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steempeak.com/sct/@dakeshi/2-tronscan-sr-src-sr\" />\r\n안녕하세요 햅뽀이입니다.    어휴.. 요즘은 정말 하루가 48시간이면 좋겠다는 생각이 너무 많이 듭니다. 물론 회사업무는 8시간만 하구요. ㅎㅎ 나머지 시간에는 제가 하고 싶은 것들을 하는 시간을 가지고 싶네요. 아 물론 아이들과 함께 하는시간도 말이지요.    ___    그리고 또 강제로 공부를 해야만 하는 녀석이 생겼지요!!! 바로 추론!!!이 아니....."
 date: 2020-02-19 07:24:30
 ---
 

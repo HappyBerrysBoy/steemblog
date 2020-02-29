@@ -12,6 +12,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요, 햅뽀이입니다.  저는 아침마다 아이들을 제가 깨웁니다. 8살 딸아이(21kg)와 6살 아들(18kg)녀석이지요. 와이프는 그 동안에 아이들 가방이나 옷가지, 먹을 것....."
 date: 2019-12-05 19:56:51
 ---
 

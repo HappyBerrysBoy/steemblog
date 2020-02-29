@@ -11,6 +11,8 @@ tags:
   - palnet
   - dblog
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmNyZ6WYLw9Rbkd3tw2meTSoy8XukhXjfrNK8tE3aaP3xn/image.png\" />\r\n  안녕하세요 햅뽀이입니다.  지난 포스팅에서 언테임드 팩 개봉의 참혹함을 보여드렸지요. ㅠㅠ 회사에서 저와 같이 언테임드 팩을 구매 했던 @honeybeerbear과 비교를 했는데, 같이 **망**했습니다. ㅠㅠ  회사 동료도 골레가 0, 골에픽이 4장 뿐이더군요. ㅎㅎㅎ 서로서로 위로 하면서 대화를 했습니다.  이야기를 하다보니 결국은 베타카드도 가성비....."
 date: 2019-12-04 22:31:24
 ---
 

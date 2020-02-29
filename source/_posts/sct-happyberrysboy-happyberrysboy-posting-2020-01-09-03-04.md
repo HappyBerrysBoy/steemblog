@@ -12,6 +12,8 @@ tags:
   - ''
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmVmv89Da7cm7PX1AZ5PHmcNpXCZhhP2X26LmDjGpvjPuB/image.png\" />\r\n안녕하세요 햅뽀이입니다..!!    그제 리얼클래스 결제하자마자 총알같이 학습자료와 아이패드가 날아 왔네요.  꽤 많은 책들과 ~~빠바바바바바바바밤~~ 아이패드입니다.              일단 다른건 모르겠고 아이패드를 보니 기분이 좋아지네요~~ ㅎㅎㅎㅎㅎㅎㅎㅎㅎ    아이패드를 받아들자마자 떠오르는게 또 하나 있네요.. ㅠㅠ        아이패드에는 ....."
 date: 2020-01-09 15:40:30
 ---
 

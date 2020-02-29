@@ -12,6 +12,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  금일 여러뉴스매체에서 **비트코인 등 가상자산에 소득세 매긴다**는 [뉴스]( 많이 발표되었습니다.     무슨 멍멍이(?) 소리인가 싶어, 대충 내용....."
 date: 2019-12-08 23:54:09
 ---
 

@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  지난 주 부터 작업하고 있던 추천글 메뉴 추가 작업의 끝이 보이는 것 같습니다.   #### 구현 방법은 대략 아래 3가지로 구성됩니다. 1. 추천글 ....."
 date: 2019-12-10 23:21:39
 ---
 

@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  오늘은 설전 날, 몇 번 이야기 했던 것 같긴 한데, 저희집은 저와 와이프 둘이서 제사준비를 다 해야하는 날이기도 하지요. 아이들이 어렸을 때는 둘이서....."
 date: 2020-01-24 23:58:00
 ---
 

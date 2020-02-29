@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmUEkmFHRqPXpU7djNEYxjeEKKnYvNazxNCKsKu8bXDFZ1/image.png\" />\r\n안녕하세요 햅뽀이입니다.    금일 오전에 하급뽑기판의 라운드 종료가 있었습니다.   원래 3일주기로 일어나는 것이지만, 이번에는 하루만에 95％이상 완판이 되어 리셋이 일어나게 되었는데요.  모두들 관심 가져하시는 로또추첨도 마찬가지로 있었습니다.!    아직 상금이 쌓여가는 중이기에, 아무도 안걸렸으면 하는 마음으로 살포시 확인을 해봤는데요.    이게....."
 date: 2020-02-08 12:40:33
 ---
 

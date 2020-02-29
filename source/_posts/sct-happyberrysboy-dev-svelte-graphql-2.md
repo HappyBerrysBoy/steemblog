@@ -12,6 +12,8 @@ tags:
   - palnet
   - kr-dev
 author: happyberrysboy
+categories: dev
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmTrDZQc777cBrg9Vf5GyoTh1kohNAAymUpUcKj9mYhGWz/image.png\" />\r\n  안녕하세요, 햅뽀이입니다.  오늘은 svelte에 대해서 더 깊이 깊이 파보려고 열심히 이것저것을 뒤져보며 실제로 프로젝트도 2개나 만들어서 테스트를 해보았습니다....만.... 아직 큰 프로젝트를 하기에는 시기상조 인듯 합니다.  이유는 크게 3가지 입니다.  ### 1. React의 redux, Vue의 vuex에 해당하는 \"sapper\"가 아직 버....."
 date: 2020-02-05 23:16:51
 ---
 

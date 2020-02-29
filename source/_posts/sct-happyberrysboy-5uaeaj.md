@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmUMPURmctpa1MPJVF1eXQ6hYqgDz1NUJ7za32bEBinEq8/image.png\" />\r\n안녕하세요 햅뽀이입니다.  제가 지난번에 소개해드렸던 **매불쇼**에서 과학이야기를 들었는데... 어휴.. 아주 섬뜩하고 신기한 기술 이야기를 듣고 정말 깜짝 놀랐습니다. 살아있는 로봇이야기와 미세플라스틱 이야기.. 어휴... 이야기를 들으면서 해결방법이 없다는 사실을 아니 정말 무기력해지기도 하긴 하더군요...  깜짝놀랄 기술 1가지와 사실 1가지를 알려....."
 date: 2020-01-27 18:13:03
 ---
 

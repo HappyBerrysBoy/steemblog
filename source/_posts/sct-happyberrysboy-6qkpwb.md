@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmRBhELfYyZhCo3oPSSndfAxXoBUMWyPzG88zzSMvpgFN9/image.png\" />\r\n안녕하세요 햅뽀이입니다.  최근 추천글 메뉴를 추가하고 여러 추천작가분들을 모셨습니다. 모든 분들이 기본적으로 **추천글** 메뉴에 들어갈만한 글들을 대상으로 **sct-coin** 태그를 달고 계실겁니다. 그렇기 때문에 앞으로도 **추천글** 메뉴의 퀄리티는 계속 상승할 것 같습니다.  현재는 글이 전체 6개 밖에 없긴 하지만 앞으로 많이 쌓이면 꽤나 볼....."
 date: 2019-12-14 02:42:15
 ---
 

@@ -6,6 +6,8 @@ tags:
   - sct-freeboard
   - test
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"\" />\r\nI love you so much!!!!!!!!!!!@#!@#!@#....."
 date: 2019-11-26 17:07:12
 ---
 

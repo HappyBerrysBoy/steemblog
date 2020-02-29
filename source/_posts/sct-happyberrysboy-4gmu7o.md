@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)  안녕하세요 햅뽀이입니다.  다들 이제는 아시겠지만 트론에게 스팀의 지분이 매각되었습니다. 왜 아직도 네드가 이 일을 메인으로 처리 하는지는 잘 모르겠으나, 저스틴과 네드 둘이서 ....."
 date: 2020-02-16 07:24:30
 ---
 

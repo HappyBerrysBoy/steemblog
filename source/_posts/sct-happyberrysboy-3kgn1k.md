@@ -11,6 +11,8 @@ tags:
   - palnet
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmPVRMQksmNY54ToMrLvXCkfTJ5ZBKrEGc5aD1efCU7Uks/image.png\" />\r\n안녕하세요, 햅뽀이입니다.  제가 평소에 일과 코딩 말고 즐기는 것이 크게 2가지고 있지요. 하나는 \"브롤스타즈\" 그리고 하나는 \"웹툰\"보기 입니다. 지금까지 매일 하루도 빠짐없이 즐기고 있는 것들이지요.  다른 분들도 웹툰 보시는 분들 많으시던데, 서로 소개해주면 좋을 것 같아요.  참고로 저는 판타지 장르를 제일 좋아하구요, 무협도 판타지 만큼 좋아합니....."
 date: 2019-11-22 00:18:33
 ---
 

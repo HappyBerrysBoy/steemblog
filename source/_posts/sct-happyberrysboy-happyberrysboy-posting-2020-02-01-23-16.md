@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmTKrWUGzbSVAhYaJBHRQsRNoYv2mDUhDTkuSkynSfFA9Y/image.png요\" />\r\n안녕하세요. 햅뽀이입니다.    니트러스와 뽑기판에 소소한 변경사항들이 있습니다. 니트러스는 뱃지부분이고, 뽑기는 UI 부분을 조금 손봤습니다.  어떤부분들인지 한번 볼까나요!?    ___    ### 니트러스 뱃지에 링크 추가  - 아래 이미지를 보면 뱃지에 노란색 글씨에 아랫줄이 그어져 있는 뱃지가 있습니다.  - 저렇게 표시가 되는 뱃지들은 뱃지를 ....."
 date: 2020-02-02 10:10:30
 ---
 

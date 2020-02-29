@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://steemitimages.com/0x0/https:/\" />\r\n/cdn.steemitimages.com/DQmeVyCnkva2SjkjT5mk9XPo2BJzbK7szFE1pDqqAHrSBsC/WHALE_TITLE_COLORED_LOW.jpg)    안녕하세요 햅뽀이입니다.    어제는 집에 귀가하고 식사를 하고 쉬고 있는데, 아이들이 갑자기 자기들도 유튜버에 영상을 올리고 싶다고 하네요.  웬 영상? 했지만 정말로 올릴....."
 date: 2020-01-30 19:40:30
 ---
 

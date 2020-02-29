@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYLtAe1RmMm4aMGXBjo48vWKTfa7ZUgfUCZiGc83TGzHZ/image.png\" />\r\n    안녕하세요 햅뽀이입니다.    오늘 오전 9시(한국시간) 뽑기판이 오픈되었지요.  저도 최근에 뽑기에 많이 참석하지도 않아서, 보팅권이 슬 모자르고 있어 오전에 대략 50뽑이상을 좀 달려주었습니다. 그 전에도 이미 조금 뽑힌 번호들이 보이더군요.    어쨌든 저는 적당히 얻을 만큼의 보팅권이 나올 때 까지 달렸고 그만 하였습니다. 그게 대략 10시쯤....."
 date: 2020-02-20 07:24:33
 ---
 

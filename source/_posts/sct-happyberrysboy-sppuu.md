@@ -11,6 +11,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmP9SKgNrMvQZCwWo6SCJgk6X5ie3NoAbDJs2ivzUudDSM/image.png\" />\r\n안녕하세요 햅뽀이입니다.  어제 결혼기념일 잊은 기념으로(읭?) 애플펜슬을 구매해보았습니다. 열심히 필기를 하고 기획을 해서 부자가 되기 위한 큰그림이지요.   많이들 보셨을 지도 모르는(?) 애플펜슬 케이스입니다. 애플이 그래도 포장기술은 어마어마하지요. 케이스를 오픈 할 때의 그 느낌이 생생하군요.   제조일도 작년 말이라서 아주 상콤합니다. 나름 또 ....."
 date: 2020-01-11 23:24:54
 ---
 

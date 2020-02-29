@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmfFay5EpKCwCQ4JSwQNwhcecy6LqFcLcwPsw348911NMo/image.png\" />\r\n안녕하세요 햅뽀이입니다.  제목에서 보실 수 있으시다시피 SWAP 환매 가격이 급상승을 하고 있습니다.   그동안 마지막 판매가격이었던 4.0 아래로도 내려 갔었는데도 말이죠. 그당시에는 아마도 토큰 스왑에서 어느정도 이익을 남길 수 있는 상황이어서 조금이라도 이득이 되는경우 무조건 환매를 했던 것 같습니다. 이제는 스왑창에 SCTM 잔고가 없어서 그런지 ....."
 date: 2019-12-27 19:21:54
 ---
 

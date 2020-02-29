@@ -11,6 +11,8 @@ tags:
   - liv
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmYdJxeBxdRLAaGw7V5fER9rVCvV2xmtMhXriqYvszX3hS/image.png\" />\r\n안녕하세요 햅뽀이입니다.  오늘은 아이들과 뛰어놀려고 공원에 나가보았습니다. 집에서 줄넘기 3개, 훌라우프, 공하나, 발목 줄넘기 마구마구 챙겨서 집을 나섰더랬지요.  여기서 잠깐? 발목 줄넘기가 무엇인지 아시나요? 제가 어렸을 때는 전혀 있지 않았던 건데요..    요렇게 생긴건데요, 둥근부분을 발목에 넣고 발목으로 줄넘기를 굴리면서, 나머지 발에 다가오....."
 date: 2020-01-05 23:44:39
 ---
 

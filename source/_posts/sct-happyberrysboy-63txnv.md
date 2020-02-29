@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmWdowJFG4ZH7b85umzjWZ2rvApHv4bVroBBbRY8Gd5QWw/image.png\" />\r\n안녕하세요 햅뽀이입니다.   벌써 일요일하고도 또 밤이 되었군요... 시간이 어찌나 이렇게 빨리 지나가는지 야속합니다.(갑자기 저희 어머니 예전 18번 노래, 하춘화에 사랑이 야속하드라아~~~ 가는당신이 무정 하드라아~~~ 노래가 생각나는군요. ㅎㅎ)  오늘 낮에는 와이프 예전 직장동료의 부친상이 있어서 다녀왔네요. 아직 젊은 나이이신데 암으로 돌아가셨다고....."
 date: 2019-12-29 23:47:21
 ---
 

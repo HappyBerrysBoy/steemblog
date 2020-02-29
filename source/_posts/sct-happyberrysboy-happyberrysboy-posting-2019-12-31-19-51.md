@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQme92dY58dNgvr42e1VpsmAZKcogAxk1RX81d4tBLThwcj/image.png\" />\r\n안녕하세요 햅뽀이입니다.    사이트를 보면 모르시기가 힘들긴 할텐데, 우측에 **\"공지사항 텔레그램방\"**과 **\"뽑기 도전\"** 바로가기 메뉴를 추가하였습니다.    ___    ##### 공지사항 텔레그램방  - 카카오톡 오픈방을 없애면서, 공지 전달이 예전보다는 조금 덜 전달이 될 것 같아 공지사항만 전용으로 게시하는 **텔레그램방**을 하나 만들었....."
 date: 2019-12-31 21:50:30
 ---
 

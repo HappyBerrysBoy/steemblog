@@ -11,6 +11,8 @@ tags:
   - dblog
   - mini
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmNVkbrA2AMWEjMyEFwHm97YNXkvDkHQM41qyujYeSYHR6/image.png\" />\r\n안녕하세요 햅뽀이입니다.  부산에서 제가 살고 있는 동네는 최근까지 대형마트가 하나도 없는 지역이었습니다. 뭐 그래도 이것저것 다 파는 적당한 규모의 마트는 꽤나 있었지만, (~~여름에 에어컨 공짜로 쐴수 있는~~)대형 마트는 없었지요.  그러다.. 올해 10월 말에 드디어 하나가 생겼습니다.!! 나름 퀄리티 있는 **스타필드시티**가 생겼지요. 부산에선 ....."
 date: 2019-11-20 23:16:51
 ---
 

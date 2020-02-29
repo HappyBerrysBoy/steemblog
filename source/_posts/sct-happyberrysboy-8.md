@@ -12,6 +12,8 @@ tags:
   - dblog
   - palnet
 author: happyberrysboy
+categories: life
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmdYD9WfMCie4q8oS38CcgASFELRUnAP5u2xauDsWgUZEQ/image.png\" />\r\n안녕하세요 햅뽀이입니다.  지난 번에 부모님께 집지키는 강아지 2마리가 새끼를 8마리나 낳았다는 이야기를 들었었는데, 이번 설에 한번 가보니 이제 제법 뛰어 노는 강아지 정도로 자라 있더군요. 어느 동물이들 새끼는 귀여운법! ㅎㅎ 엄청 귀여웠습니다. 아이들이 새끼 강아지를 만질일이 거의 없다보니 이번에 갔을 때 아주 그냥... 몇 시간을 강아지들과 노는지......"
 date: 2020-01-26 23:14:57
 ---
 

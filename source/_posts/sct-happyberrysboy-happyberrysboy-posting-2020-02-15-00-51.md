@@ -12,6 +12,8 @@ tags:
   - palnet
   - spt
 author: happyberrysboy
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmbPbqERXkAKPPshSKrM7CsEQJiS4zQ4VoiH21KhLgawHG/image.png\" />\r\n안녕하세요 햅뽀이입니다.        이번시즌에 처음으로 스몬 다이아리그2를 찍었네요.    지난번에는 다이아3에 올라오자 마자 만랩 몬스터와 서모너들에게 기가 빨려서 전혀 진전을 하지 못했었는데, 이번에는 미스테리포션에서 뽑은 줄리앙 덕분인지, 조금은 더 나아가서 다이아리그 2까지 달성을 하였습니다.    아직 저는 베타카드와 리워드 카드들이 많이 부족하....."
 date: 2020-02-15 02:11:30
 ---
 
