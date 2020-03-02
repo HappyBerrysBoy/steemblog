@@ -1,0 +1,34 @@
+post:
+  top: Top
+  read_more: Read More
+  sticky: Sticky
+  wordcount: "%s words"
+  duration: "%s min"
+  comments: Comments
+  comments_placeholder: Unable to load %s, please make sure your network can access.
+  copy_button: Copy
+  copy_success: Copied
+  copy_failure: Copy failed
+  updated: updated at
+  prev_page: Previous
+  next_page: Next
+  copyright:
+    author: Post author
+    link: Post link
+    license_title: Copyright Notice
+    license_content: "All articles in this blog are licensed under %s unless stating additionally."
+footer:
+  license: "[#스팀코인판](https://www.steemcoinpan.com/@happyberrysboy) [#STEEMIT](https://www.steemit.com/)"
+  use: Use
+  theme: as theme
+  total_views: total visits
+  total_visitors: total visitors
+  times: times
+search:
+  placeholder: Search
+symbol:
+  comma: ", "
+  period: ". "
+  colon: ": "
+  brackets_l: "("
+  brackets_r: ")"

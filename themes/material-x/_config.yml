@@ -1,0 +1,434 @@
+############################## 테마 기본 정보 ################ #################
+info:
+  name: Material X
+  version: 1.4
+  docs: https://xaoxuu.com/wiki/material-x/
+  cdn: # CDN을 사용하려면 루트 디렉토리의 구성 파일에 use_cdn : true를 작성하십시오.
+    css:
+      style: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@20.2.21/css/style.css
+    js:
+      app: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@20.2/js/app.js
+      search: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@20.2/js/search.js
+      volantis: https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0.6/js/volantis.min.js
+      backstretch: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@20.2/js/backstretch.min.js
+      commentTyping: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@20.2/js/commentTyping.js
+
+
+############################### 테마 스타일 ################# ################
+# style: material    # material: 탐색 모음 및 제목 표시 줄의 배경색은 테마 색입니다.
+style: pure        # pure: 탐색 막대 및 제목 표시 줄의 흰색 배경
+
+# 젖빛 유리 효과 특정 효과는 다음 위치에서 조정됩니다. source/less/_color.less
+blur:
+  nav: true
+  widget: true
+
+
+############################### 服务开关 ###############################
+scrollreveal: true  # 페이지 스크롤 표시 애니메이션
+nodewaves: true     # 버튼 클릭 효과
+busuanzi: true      # 교통 통계
+# fastclick: true
+commentTyping: true # 입력란 타자기 효과
+# wordcount: true   # 기사 단어 수, 읽기 시간, 플러그인 열기: npm i --save hexo-wordcount
+
+
+
+############################### Custom ###############################
+# 슬라이드 배경
+backstretch:
+  position: background  # cover: 封面背景   background: 整个网页背景
+  duration: 6000        # 持续时间（毫秒）
+  fade: 2500            # 渐变（毫秒）
+  images:
+    - https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg
+    - https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg
+    - https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg
+    - https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg
+
+
+# page 표지
+cover:
+  scheme: search    # 여러 표지 레이아웃 구성표는 나중에 제공됩니다
+  height: half      # full（기본값）: 앞 표지가 첫 번째 전체 화면을 차지하고 다른 페이지가 화면 높이의 절반을 차지하고 절반 : 모든 페이지가 화면의 절반 만 차지하는 덮개가 있음
+  title: Happyberrysboy's Blog
+  # logo: assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
+  search_placeholder: '검색'
+  # 홈 커버 메뉴
+  features:
+    - name: 홈
+      icon: fas fa-rss
+      url: /
+    - name: 프로젝트
+      icon: fas fa-code-branch
+      url: https://github.com/HappyBerrysBoy?tab=repositories
+    - name: 친구들
+      icon: fas fa-link
+      url: https://www.steemcoinpan.com/@happyberrysboy/followers
+      rel: nofollow
+    - name: 나는..
+      icon: fas fa-info-circle
+      url: about/about.html
+      rel: nofollow
+
+
+# 导航栏
+navbar:
+  # 左侧logo区
+  logo:
+    # 显示图片，使用图片时将不会显示icon和title
+    img: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.7/apple-touch-icon.png
+    # 显示图标
+    icon: fas fa-home
+    # 显示标题
+    title: Happy Blog
+  # logo后面的导航菜单
+  menu:
+    # 在桌面端显示的导航菜单
+    on_desktop:
+      - name: Home
+        icon: fas fa-hourglass-half
+        url: /
+        target: _self
+      - name: Categories
+        icon: fas fa-folder-open
+        url: categories/
+        rel: nofollow
+        target: _self
+      - name: Tags
+        icon: fas fa-hashtag
+        url: tags/
+        rel: nofollow
+        target: _self
+      - name: Archives
+        icon: fas fa-archive
+        url: archives/
+        rel: nofollow
+        target: _self
+
+    on_mobile:
+      - name: Home
+        icon: fas fa-clock
+        url: /
+      - name: Archives
+        icon: fas fa-archive
+        url: archives/
+        rel: nofollow
+      - name: Projects
+        icon: fas fa-code-branch
+        url: projects/
+      - name: Friends
+        icon: fas fa-link
+        url: friends/
+        rel: nofollow
+      - name: Link
+        icon: fas fa-book
+        url: https://github.com/HappyBerrysBoy
+        rel: nofollow
+      - name: About
+        icon: fas fa-info-circle
+        url: about/about.html
+        rel: nofollow
+
+
+
+# 레이아웃
+layout:
+  # 기사 목록 (홈페이지, 사용자 정의 목록) 레이아웃
+  on_list:
+    # 목록의 각 기사에 대한 메타 정보
+    meta: [title, author, date, category, wordcount, top]
+    # 목록 페이지의 사이드 바
+    sidebar: [blogger, dao_hang, huan_ying, category, tagcloud, tui_jian, donate]
+  # 기사 페이지 레이아웃
+  on_page:
+    # 기사 페이지 본문 요소, 페이지의 앞면에서 설정할 수도 있습니다
+    body: [article, comments]
+    # 기본 메타 정보 기사에 구성이 없으면 여기에 구성에 따라 표시되고 false로 설정하면 표시되지 않습니다.
+    # 그 중에서도 제목은 헤더에서만 유효하며 음악 및 미리보기 이미지는 여기에서 설정할 필요가 없으며 기사에 표시됩니다.
+    # 태그가 meta.header에 배치 된 경우 태그가 이미 카드 아래에 있기 때문에 게시물 목록에 표시되지 않습니다.
+    meta:
+      header: [title, author, date, category, counter, wordcount, top]
+      footer: [updated, tags, share]
+    # 각 기사 끝에 자동으로 추가 된 기사 바닥 글
+    footer: [copyright, donate]
+    # 기사 페이지의 사이드 바
+    sidebar: [blogger, toc, category, tagcloud, donate]
+  # 다른 페이지 레이아웃은 기사 목록과 일시적으로 동일합니다
+
+
+# meta라이브러리 구성
+meta:
+  # 기사 제목
+  title : # 구성 없음
+  # 기사 작성자
+  author:
+    icon: fas fa-user # 아바타가 구성된 경우 아이콘이 표시되지 않습니다
+  # 기사 작성일
+  date:
+    icon: fas fa-calendar-alt
+    format: 'YYYY-MM-DD' # 날짜형식 http://momentjs.com/docs/
+  # 기사 업데이트 날짜
+  updated:
+    icon: fas fa-clock
+    format: 'll' # 날짜형식 http://momentjs.com/docs/
+  # 기사 카테고리
+  category:
+    icon: fas fa-folder-open
+  # 기사 스티커
+  top:
+    icon: fas fa-angle-double-up
+  # 기사 조회수
+  counter:
+    icon: fas fa-eye
+  # 기사 단어와 읽는시간
+  wordcount:
+    icon_wordcount: fas fa-keyboard
+    icon_duration: fas fa-hourglass-half
+  # 게시물 태크
+  tags:
+    icon: fas fa-tag
+  # 공유
+  share:
+    # - id: qq
+    #   name: QQ好友
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
+    # - id: qzone
+    #   name: QQ空间
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
+    # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
+    #   name: 微信
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
+    # - id: weibo
+    #   name: 微博
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
+    # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
+    #   name: QRcode
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
+
+
+# 组件库配置
+widget:
+  # ---------------------------------------
+  # 博主信息小部件配置
+  - id: blogger
+    class: blogger
+    avatar: https://cdn.steemitimages.com/DQmYoGJM3gmtjZQ8PtW25HPqWHGzMgxu94XCc8nVGoAxntu/WHALE_COLORED_FIN_plat.jpg
+    # title:  标题
+    # subtitle: 副标题
+    jinrishici: true # 今日诗词。可以设置字符串，加载失败时会显示占位字符串。
+    social: true
+  # ---------------------------------------
+  # 目录小部件配置(仅在文章中有效)
+  - id: toc
+    class: toc
+    icon: fas fa-list
+    title: 바로가기
+    list_number: false # 是否显示章节
+    min_depth: 2 # H1建议用作网页或者文章的标题，章节从H2开始。
+    max_depth: 5 # 由于宽度有限，主题没有针对所有层级进行布局优化，建议文章最多分为：H2/H3/H4/H5四个层级
+  # ---------------------------------------
+  # 文章分类小部件配置
+  - id: category
+    class: category
+    icon: fas fa-folder-open
+    title: 카테고리
+    more: # 右上角的按钮
+      icon: fas fa-expand-arrows-alt
+      url: blog/categories/
+      rel: external nofollow noopener noreferrer
+      target: _self
+  # ---------------------------------------
+  # 标签云小部件配置
+  - id: tagcloud
+    class: tagcloud
+    icon: fas fa-tags
+    title: 관심태그
+    more: # 右上角的按钮
+      icon: fas fa-expand-arrows-alt
+      url: blog/tags/
+      rel: external nofollow noopener noreferrer
+      target: _self
+    min_font: 14
+    max_font: 24
+    color: true
+    start_color: '#999'
+    end_color: '#555'
+  # ---------------------------------------
+  # 相关文章小部件配置
+  - id: related_posts
+    class: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
+    icon: fas fa-bookmark
+    title: 관련포스트
+  # ---------------------------------------
+  # 版权说明小部件（仅用于文章中）
+  # - id: copyright
+  #   class: copyright
+  #   permalink: '원문링크：' # 显示文章永久链接
+  #   content:
+  #     - 'Blog content follows the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)'
+  #     - ''
+  #     - permalink
+  # ---------------------------------------
+  # 捐赠小部件（可用于文章中和侧边栏）
+  # - id: donate
+  #   class: donate
+  #   icon: fas fa-donate
+  #   title: 打赏
+  #   height: 64px
+  #   # fancybox: true # 是否允许点击放大
+  #   images:
+  #     - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png
+      # - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png
+      # - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png
+      # - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png
+  # ---------------------------------------
+  # 自定义组件，仿照如下写法
+  - id: huan_ying # 唯一标识，自己命名，建议全英文
+    class: text # 小部件类型，对应_widget文件夹中的文件名
+    icon: fas fa-file
+    title: Happyberrysboy' blog
+    content:
+      - 가족을 제일 사랑하고,
+      - 코딩 배우는 것을 좋아하며,
+      - 디지털노마드를 꿈꾸는,
+      - Happyberrysboy의
+      - 블로그에 오신것을 환영합니다.
+  - id: dao_hang
+    class: grid
+    icon: fas fa-map-signs
+    title: Categories
+    rows:
+      - name: Homepage
+        icon: fas fa-clock
+        url: /
+      - name: Archives
+        icon: fas fa-archive
+        url: archives/
+        rel: external nofollow noopener noreferrer
+        target: _self
+      - name: Projects
+        icon: fas fa-code-branch
+        url: projects/
+      - name: Friends
+        icon: fas fa-link
+        url: friends/
+        rel: external nofollow noopener noreferrer
+        target: _self
+      - name: Source
+        icon: fas fa-book
+        url: https://github.com/HappyBerrysBoy
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: About
+        icon: fas fa-info-circle
+        url: about/about.html
+        rel: external nofollow noopener noreferrer
+        target: _self
+  - id: tui_jian
+    class: list
+    icon: fas fa-thumbs-up
+    title: 관련링크
+    rows:
+      - name: 스팀코인판
+        url: https://www.steemcoinpan.com/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: 스팀잇
+        url: https://www.steemit.com/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: 스팀몬스터
+        url: https://steemmonsters.com/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+
+
+# 社交信息配置
+social:
+  - icon: fas fa-rss
+    url: atom.xml
+  - icon: fas fa-envelope
+    url: mailto:happyaws191204@gmail.com
+  - icon: fab fa-github
+    url: https://github.com/HappyBerrysBoy
+
+# APlayer配置 https://github.com/metowolf/MetingJS
+aplayer:
+  # 是否启用，注释此项则不加载服务
+  enable: false
+  # 必选参数
+  server: netease   # netease, tencent, kugou, xiami, baidu
+  type: playlist    # song, playlist, album, search, artist
+  id: 3175833810    # song id / playlist id / album id / search keyword
+  # 可选参数
+  fixed: false      # enable fixed mode
+  theme: '#1BCDFC'  # main color
+  autoplay: false   # audio autoplay
+  order: list       # player play order, values: 'list', 'random'
+  loop: all         # player loop play, values: 'all', 'one', 'none'
+  volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+  list_max_height: 340px # list max height
+  list_folded: true
+
+############################### 需要复制到根目录配置文件中 ###############################
+# 请复制到根目录配置文件！
+# copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
+
+
+
+
+############################### 评论系统 ###############################
+# disqus_shortname: 要使用哪个请复制到根目录配置文件！
+# livere_uid: 要使用哪个请复制到根目录配置文件！
+# gitalk: 要使用哪个请复制到根目录配置文件！
+#   clientID: 你的clientID
+#   clientSecret: 你的clientSecret
+#   repo: 你的repo名
+#   owner: 你的GitHub名
+#   admin: [] 至少填写你的GitHub名
+# leancloud: 要使用哪个请复制到根目录配置文件！
+#   app_id: 你的appId
+#   app_key: 你的appKey
+
+
+############################### 杂项，请勿删除 ###############################
+#valine配置
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  volantis: true # 是否启用volantis版本（禁止匿名，增加若干贴吧、QQ表情）
+  # 还需要在根目录配置文件中添加下面这三行内容
+  # leancloud:
+  #   app_id: 你的appId
+  #   app_key: 你的appKey
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mp # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: true # valine verify code (true/false)
+  notify: true # valine mail notify (true/false)
+  lang: en
+  highlight: true
+
+# 搜索配置
+search:
+  enable: true
+  service: hexo    # 类型：google, algolia, azure, baidu 默认 hexo
+# 选择你选取的搜索服务后，复制相应的配置到根目录配置文件中
+# google:
+#   apiKey:
+#   engineId:
+# algolia:
+#   applicationID:
+#   apiKey:
+#   indexName:
+# azure:
+#   serviceName:
+#   indexName:
+#   queryKey:
+# baidu:
+#   apiId:
+
+# Less渲染
+less:
+  compress: true
