@@ -11,8 +11,8 @@ tags:
   - zzan
   - spt
 author: happyberrysboy
-categories: hive-101145
-excerpt: "<img src=\"https://cdn.steemitimages.com/DQmdYuiibvFevAJGXsYEXBfLWikHFKzMo9tq5x5BDg3WLPi/image.png\" />\r\n안녕하세요 햅뽀이입니다.    확실히 카드 보충을 하니 등급 올리기는 쉽긴합니다.  여전히 지는건 많지만요.  다이아 1까지 가기위해서 좀 노력을 해봤는데 만만치가 않습니다. 실버나, 골드 시절에는 상대방이 나보다 점수가 높아도 약간 비빌만한 수준은 되었었는데, 지금은 뭐... 넘사벽들도 나오네요. 실버와 골드리그보다 더 말이죠.     ....."
+categories: game
+excerpt: "<img src=\"https://cdn.steemitimages.com/DQmdYuiibvFevAJGXsYEXBfLWikHFKzMo9tq5x5BDg3WLPi/image.png\" />\r\n안녕하세요 햅뽀이입니다.        확실히 카드 보충을 하니 등급 올리기는 쉽긴합니다.  여전히 지는건 많지만요.   다이아 1까지 가기위해서 좀 노력을 해봤는데 만만치가 않습니다. 실버나, 골드 시절에는 상대방이 나보다 점수가 높아도 약간 비빌만한 수준은 되었었는데, 지금은 뭐... 넘사벽들도 나오네요. 실버와 골드리그보다 더 말이죠.          ....."
 date: 2020-02-29 07:30:30
 ---
 
